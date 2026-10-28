@@ -1,0 +1,19 @@
+{
+  "title": "La cara de culpable — Pépito Saucisse",
+  "scenes": [
+    {"headline": "CARA DE CULPABLE", "pose": "guilty", "bg": ["#ff5f6d", "#ffc371"],
+     "text": "¿Tu perro hizo una travesura? Mírale bien la cara."},
+    {"headline": "PÉPITO SAUCISSE", "pose": "proud", "bg": ["#43cea2", "#185a9d"],
+     "text": "Este es Pépito Saucisse. Treinta centímetros de largo, cero centímetros de remordimiento. Bueno… casi."},
+    {"headline": "EL CRIMEN", "pose": "sideeye", "props": "feathers", "bg": ["#8e2de2", "#4a00e0"],
+     "text": "Llegas a casa. El cojín está hecho trizas. ¿Y Pépito? Mirando la pared. Qué pared tan interesante."},
+    {"headline": "LAS PISTAS", "pose": "guilty", "props": "feathers", "bg": ["#f7971e", "#ffd200"],
+     "text": "Orejas hacia atrás, ojos de media luna, la colita moviéndose despacito: es la cara de culpable."},
+    {"headline": "LA CIENCIA DICE…", "pose": "normal", "bg": ["#00c6ff", "#0072ff"],
+     "text": "Pero según los científicos, no es culpa. Es una reacción a tu cara de enfado."},
+    {"headline": "CERO ARREPENTIMIENTO", "pose": "proud", "props": "feathers", "bg": ["#11998e", "#38ef7d"],
+     "text": "O sea, Pépito no se arrepiente de nada. Solo gestiona tu enfado como un profesional."},
+    {"headline": "¿Y TU PERRO?", "pose": "sideeye", "bg": ["#ee0979", "#ff6a00"],
+     "text": "Y tu perro, ¿qué cara pone cuando lo pillas con las manos en la masa? ¡Cuéntamelo en los comentarios!"}
+  ]
+}

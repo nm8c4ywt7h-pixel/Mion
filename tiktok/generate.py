@@ -6,8 +6,8 @@ Visuels : Pépito Saucisse, teckel dessiné avec Pillow, + titres animés.
 
 Usage :
   export ELEVENLABS_API_KEY=...            # obligatoire pour la voix
-  export ELEVENLABS_VOICE_ID=...           # optionnel (voix FR de ton choix)
-  python3 tiktok/generate.py tiktok/script_chiens.json -o out/tete_de_coupable.mp4
+  export ELEVENLABS_VOICE_ID=...           # optionnel (voix espagnole de ton choix)
+  python3 tiktok/generate.py tiktok/script_perros.json -o out/cara_de_culpable.mp4
 
   --preview : rendu sans ElevenLabs (audio muet, timing estimé) pour vérifier le visuel.
 """
