@@ -45,6 +45,8 @@
 > «Guárdalo para no olvidarlo y sígueme para la parte 2…»
 > «…porque lo que nadie te dice sobre [SUJET] es…» (on recoupe sur le hook pour créer la boucle)
 
+**Règle des noms :** on garde toujours les mêmes noms. Si un nom a une forme espagnole, on utilise cette forme (ex. Pierre → Pedro, Jean → Juan, Marie → María, Louis → Luis). Sinon, on le garde tel quel. Même chose pour les mots-clés (ex. « caca » reste « caca » en espagnol, ou « popó » en Amérique latine).
+
 **Conseils pour la voix :** espagnol neutre (ou castillan selon ta cible), débit rapide d'environ 170 mots/min, énergie forte sur le premier mot du hook, pas de silence de plus de 0,3 s (coupe les respirations au montage).
 
 ---
