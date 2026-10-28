@@ -14,7 +14,11 @@ Usage :
   export ELEVENLABS_VOICE_ID=...     # optionnel ; sinon une voix espagnole du compte est cherchée
   python3 tiktok/generate.py tiktok/script_perros.json -o out/cara_de_culpable.mp4
 
-  --preview      : rendu sans ElevenLabs (voix muette, timing estimé) pour vérifier le visuel.
+  Sans clé, voix gratuite hors ligne (Piper, https://github.com/OHF-Voice/piper1-gpl) :
+  python3 tiktok/generate.py tiktok/script_perros.json -o out/cara_de_culpable.mp4 \\
+      --engine piper --piper-model es_MX-claude-high.onnx
+
+  --preview      : rendu sans voix (timing estimé) pour vérifier le visuel.
   --music FICHIER: remplace la musique générée par la tienne.
 """
 import argparse
@@ -109,6 +113,55 @@ def tts(text, voice_id, api_key, cache_dir):
         js.write_text(json.dumps(data["alignment"]))
     al = json.loads(js.read_text())
     return str(mp3), al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]
+
+
+def tts_piper(beats, model, piper_bin, length_scale, tmp):
+    """Voix gratuite hors ligne (Piper) : une synthèse par plan, assemblées avec de courtes
+    pauses. Piper ne donne pas de timestamps : les caractères de chaque plan sont répartis
+    sur sa durée de parole (les chiffres comptent triple, les virgules internes font pause)."""
+    pieces, chars, starts, ends = [], [], [], []
+    rate, t = None, 0.25
+    for i, b in enumerate(beats):
+        wav = tmp / f"piper_{i}.wav"
+        subprocess.run([piper_bin, "-m", model, "-f", str(wav), "--length-scale", str(length_scale)],
+                       input=b["text"].encode(), check=True, capture_output=True)
+        with wave.open(str(wav)) as f:
+            rate = f.getframerate()
+            x = np.frombuffer(f.readframes(f.getnframes()), np.int16).astype(np.float64) / 32768
+        loud = np.flatnonzero(np.abs(x) > 0.03 * np.abs(x).max())
+        x = x[max(0, loud[0] - int(0.02 * rate)): loud[-1] + int(0.05 * rate)]
+        if not pieces:
+            pieces.append(np.zeros(int(t * rate)))
+        pieces.append(x)
+        text, dur = b["text"], len(x) / rate
+        weights = [3.0 if c.isdigit() else 1.0 for c in text]
+        for k, c in enumerate(text[:-1]):
+            if c in ",;:":
+                weights[k] += 2.5
+            elif c in ".?!…":
+                weights[k] += 4.0
+        cum = np.concatenate([[0], np.cumsum(weights)]) * dur / sum(weights)
+        for k, c in enumerate(text):
+            chars.append(c)
+            starts.append(t + cum[k])
+            ends.append(t + cum[k + 1])
+        t += dur
+        last = text.rstrip()[-1]
+        gap = 0.35 if last in ".?!…" else 0.22 if last in ";:" else 0.12 if last == "," else 0.08
+        if i + 1 < len(beats):
+            chars.append(" ")
+            starts.append(t)
+            ends.append(t + gap)
+        pieces.append(np.zeros(int(gap * rate)))
+        t += gap
+    out = tmp / "voice_piper.wav"
+    pcm = (np.clip(np.concatenate(pieces), -1, 1) * 32767).astype(np.int16)
+    with wave.open(str(out), "wb") as f:
+        f.setnchannels(1)
+        f.setsampwidth(2)
+        f.setframerate(rate)
+        f.writeframes(pcm.tobytes())
+    return str(out), chars, starts, ends
 
 
 def estimate_alignment(text):
@@ -701,6 +754,12 @@ def main():
     ap.add_argument("-o", "--out", default="out/tiktok.mp4")
     ap.add_argument("--preview", action="store_true",
                     help="sans ElevenLabs : voix muette, timing estimé")
+    ap.add_argument("--engine", choices=["elevenlabs", "piper"], default="elevenlabs",
+                    help="voix : ElevenLabs (clé requise) ou Piper (gratuit, hors ligne)")
+    ap.add_argument("--piper-model", help="modèle Piper .onnx (ex. es_MX-claude-high.onnx)")
+    ap.add_argument("--piper-bin", default="piper", help="exécutable piper")
+    ap.add_argument("--piper-speed", type=float, default=0.92,
+                    help="length_scale de Piper (< 1 = plus rapide)")
     ap.add_argument("--music", help="fichier audio à utiliser comme musique de fond")
     ap.add_argument("--music-volume", type=float, default=0.10)
     args = ap.parse_args()
@@ -715,6 +774,12 @@ def main():
     if args.preview:
         chars, starts, ends = estimate_alignment(text)
         voice = None
+    elif args.engine == "piper":
+        if not args.piper_model:
+            sys.exit("--piper-model est requis avec --engine piper.")
+        print(f"Voix Piper : {Path(args.piper_model).stem}")
+        voice, chars, starts, ends = tts_piper(beats, args.piper_model, args.piper_bin,
+                                               args.piper_speed, tmp)
     else:
         api_key = os.environ.get("ELEVENLABS_API_KEY")
         if not api_key:
@@ -747,9 +812,9 @@ def main():
          "-i", voice, "-stream_loop", "-1", "-i", music, "-i", sfx,
          "-filter_complex",
          f"[0:v]ass={ass}[v];"
-         f"[1:a]aresample={SR},apad[a1];[2:a]aresample={SR},volume={args.music_volume}[a2];"
+         f"[1:a]aresample={SR},volume=0.85,apad[a1];[2:a]aresample={SR},volume={args.music_volume}[a2];"
          f"[3:a]aresample={SR},volume=0.6[a3];"
-         "[a1][a2][a3]amix=inputs=3:normalize=0:duration=first,alimiter=limit=0.95[a]",
+         "[a1][a2][a3]amix=inputs=3:normalize=0:duration=first,alimiter=limit=0.89[a]",
          "-map", "[v]", "-map", "[a]", "-t", f"{total:.3f}",
          "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(out)],
