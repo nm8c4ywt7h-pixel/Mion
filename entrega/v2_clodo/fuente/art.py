@@ -377,6 +377,9 @@ def bubble(kind):
         E(d, (290, 170, 490, 370), (210, 230, 60))
         arc(d, (230, 180, 380, 360), 300, 60, 10, WHITE)
         arc(d, (400, 180, 550, 360), 120, 240, 10, WHITE)
+    elif kind == "bone":
+        bone = treat()
+        im.paste(bone.resize((300, 150)), (240, 230), bone.resize((300, 150)))
     elif kind == "question":
         f = ImageFont.truetype(FONT_PATH, 260)
         f.set_variation_by_name("Black")
