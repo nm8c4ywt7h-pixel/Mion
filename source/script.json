@@ -1,0 +1,189 @@
+[
+ {
+  "id": 1,
+  "who": "N",
+  "gap": 0.0,
+  "text": "Tu *perro* acaba | de *decir* tu nombre..."
+ },
+ {
+  "id": 2,
+  "who": "N",
+  "gap": 0.18,
+  "text": "Pero tu perro *real* | está *escondido* | debajo de la *cama*."
+ },
+ {
+  "id": 3,
+  "who": "N",
+  "gap": 0.12,
+  "text": "*Temblando*."
+ },
+ {
+  "id": 4,
+  "who": "N",
+  "gap": 0.1,
+  "text": "Collar *rojo*."
+ },
+ {
+  "id": 5,
+  "who": "N",
+  "gap": 0.1,
+  "text": "Mirando *detrás* | de ti."
+ },
+ {
+  "id": 6,
+  "who": "N",
+  "gap": 0.2,
+  "text": "Y la *cosa* | *parada* en | tu habitación, | *llevando* la cara | de *Buddy*, | no tiene *collar*."
+ },
+ {
+  "id": 7,
+  "who": "N",
+  "gap": 0.15,
+  "text": "Su *sombra* es | demasiado *alta*."
+ },
+ {
+  "id": 8,
+  "who": "N",
+  "gap": 0.25,
+  "text": "En tu *puerta*, | mamá *extiende* | su *mano*."
+ },
+ {
+  "id": 9,
+  "who": "MOM",
+  "gap": 0.2,
+  "text": "Sal de la habitación, cariño. || Solo puede quedarse donde lo dejaron entrar.",
+  "label": "MAMÁ · EN TU PUERTA"
+ },
+ {
+  "id": 10,
+  "who": "N",
+  "gap": 0.35,
+  "text": "Hace tres *noches*, | *escuchaste* | *arañazos* en | tu *puerta*."
+ },
+ {
+  "id": 11,
+  "who": "N",
+  "gap": 0.15,
+  "text": "La *abriste* | y *dijiste*:"
+ },
+ {
+  "id": 12,
+  "who": "KID",
+  "gap": 0.1,
+  "text": "Pasa, Buddy.",
+  "label": "TÚ · HACE 3 NOCHES"
+ },
+ {
+  "id": 13,
+  "who": "N",
+  "gap": 0.35,
+  "text": "Tú lo dejaste entrar."
+ },
+ {
+  "id": 14,
+  "who": "N",
+  "gap": 0.6,
+  "text": "Así que lo *miras* | a los *ojos*."
+ },
+ {
+  "id": 15,
+  "who": "KID",
+  "gap": 0.12,
+  "text": "Tú no eres Buddy. Lárgate.",
+  "label": "TÚ"
+ },
+ {
+  "id": 16,
+  "who": "N",
+  "gap": 0.35,
+  "text": "Su *sonrisa* | se *agrieta*."
+ },
+ {
+  "id": 17,
+  "who": "N",
+  "gap": 0.15,
+  "text": "Su *sombra* | se *desliza* por la | pared como *agua*, | por un *desagüe*..."
+ },
+ {
+  "id": 18,
+  "who": "N",
+  "gap": 0.2,
+  "text": "y la habitación | queda *vacía*."
+ },
+ {
+  "id": 19,
+  "who": "N",
+  "gap": 0.3,
+  "text": "Buddy *sale* | *arrastrándose*."
+ },
+ {
+  "id": 20,
+  "who": "N",
+  "gap": 0.12,
+  "text": "Collar *rojo*. | *Tintineando*. | *Real*."
+ },
+ {
+  "id": 21,
+  "who": "MOM",
+  "gap": 0.25,
+  "text": "Buen trabajo, cariño.",
+  "label": "MAMÁ · EN TU PUERTA"
+ },
+ {
+  "id": 21.5,
+  "who": "N",
+  "gap": 0.05,
+  "text": "dice *mamá*."
+ },
+ {
+  "id": 21.7,
+  "who": "MOM",
+  "gap": 0.1,
+  "text": "Ahora ven aquí.",
+  "label": "MAMÁ · EN TU PUERTA",
+  "join": true
+ },
+ {
+  "id": 22,
+  "who": "N",
+  "gap": 0.25,
+  "text": "Pero ella *sigue* | en la *puerta*. | Mano *extendida*. | *Sonriendo*."
+ },
+ {
+  "id": 23,
+  "who": "N",
+  "gap": 0.12,
+  "text": "A un *paso* | *fuera* de tu | *habitación*."
+ },
+ {
+  "id": 24,
+  "who": "N",
+  "gap": 0.25,
+  "text": "Mamá no ha *entrado* | a tu *cuarto* | en toda la *semana*."
+ },
+ {
+  "id": 25,
+  "who": "N",
+  "gap": 0.25,
+  "text": "Buddy no | *corre* hacia ella."
+ },
+ {
+  "id": 26,
+  "who": "N",
+  "gap": 0.12,
+  "text": "Se *pone* | delante de *ti*... | y le *gruñe* | a la *puerta*."
+ },
+ {
+  "id": 27,
+  "who": "MOM",
+  "gap": 0.3,
+  "text": "Cariño... || solo di: «Pasa, mamá».",
+  "label": "MAMÁ · EN TU PUERTA"
+ },
+ {
+  "id": 28,
+  "who": "N",
+  "gap": 0.7,
+  "text": "¿Lo *dices*... | ...o *confías* en el perro?"
+ }
+]
