@@ -26,7 +26,7 @@ Le texte est **original** (pas une traduction). `[NOMBRE]` = le nom de ton chien
 | 0:53 | Brossage sous l'eau | Se ha portado como un campeón. Reparto bien el producto, aclaro… y a secar ese culete. |
 | 0:57 | Serviette / peignoir | Y esta toalla describe perfectamente su personalidad. Tengo que comprar modelos nuevos, que ya me los sé de memoria. |
 | 1:04 | Chiot qui gigote | Dicen que tiene un carácter terrible, pero conmigo se ha portado… bueno, casi. Ya lo veréis. |
-| 1:09 | Séchage sur table | Esta raza tiene doble capa de pelo, y por eso el secado es tan importante: si se queda húmedo por dentro, aparecen problemas en la piel. |
+| 1:09 | Séchage sur table | Tiene doble capa de pelo: si se queda húmedo por dentro, da problemas de piel. |
 | 1:13 | Séchage, gros plan poil | Y no, no hay que raparlo en verano. Esa doble capa también le protege del calor. |
 | 1:18 | Chiot assis, sec | Antes de elegir un cachorro, infórmate bien sobre la raza: no te quedes solo con lo bonito que es en fotos. |
 | 1:22 | Il mord la brosse | Con el cepillo no es muy amigo. Tiene los dientes como agujas y, a este ritmo, voy a acabar sin manos. |

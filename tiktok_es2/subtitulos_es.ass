@@ -1,0 +1,187 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 576
+PlayResY: 1024
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,36,&H00FFFFFF,&H00FFFFFF,&H00141414,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,5,20,20,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.71,Sub,,0,0,0,,{\pos(288,830)}Un {\c&H2CD2F7&}cachorro{\c&HFFFFFF&} de
+Dialogue: 0,0:00:00.71,0:00:01.51,Sub,,0,0,0,,{\pos(288,830)}cuatro meses que
+Dialogue: 0,0:00:01.51,0:00:02.26,Sub,,0,0,0,,{\pos(288,830)}parece una nube
+Dialogue: 0,0:00:02.26,0:00:02.97,Sub,,0,0,0,,{\pos(288,830)}con patas. Hoy
+Dialogue: 0,0:00:02.97,0:00:03.67,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}Copito{\c&HFFFFFF&} viene a
+Dialogue: 0,0:00:03.67,0:00:04.52,Sub,,0,0,0,,{\pos(288,830)}su primera visita
+Dialogue: 0,0:00:04.52,0:00:05.31,Sub,,0,0,0,,{\pos(288,830)}de adaptación, y
+Dialogue: 0,0:00:05.31,0:00:05.93,Sub,,0,0,0,,{\pos(288,830)}ya os aviso:
+Dialogue: 0,0:00:05.93,0:00:06.55,Sub,,0,0,0,,{\pos(288,830)}me ha robado
+Dialogue: 0,0:00:06.55,0:00:07.22,Sub,,0,0,0,,{\pos(288,830)}el corazón… y
+Dialogue: 0,0:00:07.22,0:00:07.98,Sub,,0,0,0,,{\pos(288,830)}casi un dedo.
+Dialogue: 0,0:00:08.00,0:00:08.68,Sub,,0,0,0,,{\pos(288,830)}Su familia hizo
+Dialogue: 0,0:00:08.68,0:00:09.16,Sub,,0,0,0,,{\pos(288,830)}más de una
+Dialogue: 0,0:00:09.16,0:00:09.76,Sub,,0,0,0,,{\pos(288,830)}hora de coche
+Dialogue: 0,0:00:09.76,0:00:10.44,Sub,,0,0,0,,{\pos(288,830)}para venir, así
+Dialogue: 0,0:00:10.44,0:00:11.00,Sub,,0,0,0,,{\pos(288,830)}que hoy toca
+Dialogue: 0,0:00:11.00,0:00:11.96,Sub,,0,0,0,,{\pos(288,830)}sesión completa: baño,
+Dialogue: 0,0:00:11.96,0:00:12.80,Sub,,0,0,0,,{\pos(288,830)}secado, cepillado y
+Dialogue: 0,0:00:12.80,0:00:13.22,Sub,,0,0,0,,{\pos(288,830)}mimos.
+Dialogue: 0,0:00:13.24,0:00:13.73,Sub,,0,0,0,,{\pos(288,830)}Lo que más
+Dialogue: 0,0:00:13.73,0:00:14.26,Sub,,0,0,0,,{\pos(288,830)}me gusta de
+Dialogue: 0,0:00:14.26,0:00:15.24,Sub,,0,0,0,,{\pos(288,830)}estas primeras visitas
+Dialogue: 0,0:00:15.24,0:00:16.06,Sub,,0,0,0,,{\pos(288,830)}es cuando, semanas
+Dialogue: 0,0:00:16.06,0:00:16.95,Sub,,0,0,0,,{\pos(288,830)}después, me escribís
+Dialogue: 0,0:00:16.95,0:00:17.73,Sub,,0,0,0,,{\pos(288,830)}que vuestro perro
+Dialogue: 0,0:00:17.73,0:00:18.14,Sub,,0,0,0,,{\pos(288,830)}ya no le
+Dialogue: 0,0:00:18.14,0:00:18.79,Sub,,0,0,0,,{\pos(288,830)}tiene {\c&H2CD2F7&}miedo{\c&HFFFFFF&} al
+Dialogue: 0,0:00:18.79,0:00:19.30,Sub,,0,0,0,,{\pos(288,830)}secador.
+Dialogue: 0,0:00:19.32,0:00:20.18,Sub,,0,0,0,,{\pos(288,830)}Empezamos con un
+Dialogue: 0,0:00:20.18,0:00:20.99,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}baño{\c&HFFFFFF&} suave. Con
+Dialogue: 0,0:00:20.99,0:00:21.80,Sub,,0,0,0,,{\pos(288,830)}un {\c&H2CD2F7&}cachorro{\c&HFFFFFF&} tan
+Dialogue: 0,0:00:21.80,0:00:22.95,Sub,,0,0,0,,{\pos(288,830)}pequeño, lo importante
+Dialogue: 0,0:00:22.95,0:00:23.66,Sub,,0,0,0,,{\pos(288,830)}no es dejarlo
+Dialogue: 0,0:00:23.66,0:00:24.62,Sub,,0,0,0,,{\pos(288,830)}perfecto, sino que
+Dialogue: 0,0:00:24.62,0:00:25.38,Sub,,0,0,0,,{\pos(288,830)}asocie el agua
+Dialogue: 0,0:00:25.38,0:00:26.66,Sub,,0,0,0,,{\pos(288,830)}con algo tranquilo.
+Dialogue: 0,0:00:26.68,0:00:28.10,Sub,,0,0,0,,{\pos(288,830)}Muchos {\c&H2CD2F7&}criadores{\c&HFFFFFF&} responsables
+Dialogue: 0,0:00:28.10,0:00:29.01,Sub,,0,0,0,,{\pos(288,830)}ya los acostumbran
+Dialogue: 0,0:00:29.01,0:00:29.52,Sub,,0,0,0,,{\pos(288,830)}en casa a
+Dialogue: 0,0:00:29.52,0:00:30.06,Sub,,0,0,0,,{\pos(288,830)}la ducha y
+Dialogue: 0,0:00:30.06,0:00:30.66,Sub,,0,0,0,,{\pos(288,830)}al ruido, y
+Dialogue: 0,0:00:30.66,0:00:31.39,Sub,,0,0,0,,{\pos(288,830)}venir pronto a
+Dialogue: 0,0:00:31.39,0:00:32.26,Sub,,0,0,0,,{\pos(288,830)}la {\c&H2CD2F7&}peluquería{\c&HFFFFFF&} les
+Dialogue: 0,0:00:32.26,0:00:33.18,Sub,,0,0,0,,{\pos(288,830)}ayuda muchísimo.
+Dialogue: 0,0:00:33.20,0:00:34.21,Sub,,0,0,0,,{\pos(288,830)}Todavía escucho eso
+Dialogue: 0,0:00:34.21,0:00:34.73,Sub,,0,0,0,,{\pos(288,830)}de «no lo
+Dialogue: 0,0:00:34.73,0:00:35.60,Sub,,0,0,0,,{\pos(288,830)}lleves hasta que
+Dialogue: 0,0:00:35.60,0:00:36.41,Sub,,0,0,0,,{\pos(288,830)}cumpla un año».
+Dialogue: 0,0:00:36.41,0:00:37.03,Sub,,0,0,0,,{\pos(288,830)}Con todo el
+Dialogue: 0,0:00:37.03,0:00:37.80,Sub,,0,0,0,,{\pos(288,830)}cariño: es uno
+Dialogue: 0,0:00:37.80,0:00:38.52,Sub,,0,0,0,,{\pos(288,830)}de los {\c&H2CD2F7&}peores{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.52,0:00:39.33,Sub,,0,0,0,,{\pos(288,830)}consejos que se
+Dialogue: 0,0:00:39.33,0:00:40.06,Sub,,0,0,0,,{\pos(288,830)}pueden dar.
+Dialogue: 0,0:00:40.08,0:00:40.73,Sub,,0,0,0,,{\pos(288,830)}Me llegan perros
+Dialogue: 0,0:00:40.73,0:00:41.41,Sub,,0,0,0,,{\pos(288,830)}adultos que nunca
+Dialogue: 0,0:00:41.41,0:00:41.98,Sub,,0,0,0,,{\pos(288,830)}han pisado una
+Dialogue: 0,0:00:41.98,0:00:42.81,Sub,,0,0,0,,{\pos(288,830)}peluquería, con {\c&H2CD2F7&}nudos{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.81,0:00:43.38,Sub,,0,0,0,,{\pos(288,830)}y mucho {\c&H2CD2F7&}miedo.{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.38,0:00:43.74,Sub,,0,0,0,,{\pos(288,830)}Y eso se
+Dialogue: 0,0:00:43.74,0:00:44.38,Sub,,0,0,0,,{\pos(288,830)}podía evitar.
+Dialogue: 0,0:00:44.40,0:00:44.85,Sub,,0,0,0,,{\pos(288,830)}Así que por
+Dialogue: 0,0:00:44.85,0:00:45.65,Sub,,0,0,0,,{\pos(288,830)}favor, {\c&H2CD2F7&}informaos{\c&HFFFFFF&} bien
+Dialogue: 0,0:00:45.65,0:00:46.11,Sub,,0,0,0,,{\pos(288,830)}y no hagáis
+Dialogue: 0,0:00:46.11,0:00:46.73,Sub,,0,0,0,,{\pos(288,830)}algo solo porque
+Dialogue: 0,0:00:46.73,0:00:47.22,Sub,,0,0,0,,{\pos(288,830)}lo dice todo
+Dialogue: 0,0:00:47.22,0:00:47.70,Sub,,0,0,0,,{\pos(288,830)}el mundo.
+Dialogue: 0,0:00:47.72,0:00:48.60,Sub,,0,0,0,,{\pos(288,830)}Después del champú,
+Dialogue: 0,0:00:48.60,0:00:49.91,Sub,,0,0,0,,{\pos(288,830)}acondicionador. Con cachorros
+Dialogue: 0,0:00:49.91,0:00:50.88,Sub,,0,0,0,,{\pos(288,830)}uso productos suaves,
+Dialogue: 0,0:00:50.88,0:00:51.67,Sub,,0,0,0,,{\pos(288,830)}porque todavía no
+Dialogue: 0,0:00:51.67,0:00:52.39,Sub,,0,0,0,,{\pos(288,830)}sabemos cómo va
+Dialogue: 0,0:00:52.39,0:00:53.10,Sub,,0,0,0,,{\pos(288,830)}a reaccionar su
+Dialogue: 0,0:00:53.10,0:00:53.50,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}piel.{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.52,0:00:54.20,Sub,,0,0,0,,{\pos(288,830)}Se ha portado
+Dialogue: 0,0:00:54.20,0:00:55.02,Sub,,0,0,0,,{\pos(288,830)}como un {\c&H2CD2F7&}campeón.{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.02,0:00:55.80,Sub,,0,0,0,,{\pos(288,830)}Reparto bien el
+Dialogue: 0,0:00:55.80,0:00:56.75,Sub,,0,0,0,,{\pos(288,830)}producto, aclaro… y
+Dialogue: 0,0:00:56.75,0:00:57.35,Sub,,0,0,0,,{\pos(288,830)}a secar ese
+Dialogue: 0,0:00:57.35,0:00:57.86,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}culete.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.88,0:00:58.62,Sub,,0,0,0,,{\pos(288,830)}Y esta toalla
+Dialogue: 0,0:00:58.62,0:00:59.96,Sub,,0,0,0,,{\pos(288,830)}describe perfectamente su
+Dialogue: 0,0:00:59.96,0:01:01.20,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}personalidad.{\c&HFFFFFF&} Tengo que
+Dialogue: 0,0:01:01.20,0:01:02.44,Sub,,0,0,0,,{\pos(288,830)}comprar modelos nuevos,
+Dialogue: 0,0:01:02.44,0:01:02.98,Sub,,0,0,0,,{\pos(288,830)}que ya me
+Dialogue: 0,0:01:02.98,0:01:03.52,Sub,,0,0,0,,{\pos(288,830)}los sé de
+Dialogue: 0,0:01:03.52,0:01:04.62,Sub,,0,0,0,,{\pos(288,830)}memoria.
+Dialogue: 0,0:01:04.84,0:01:05.56,Sub,,0,0,0,,{\pos(288,830)}Dicen que tiene
+Dialogue: 0,0:01:05.56,0:01:06.55,Sub,,0,0,0,,{\pos(288,830)}un {\c&H2CD2F7&}carácter{\c&HFFFFFF&} terrible,
+Dialogue: 0,0:01:06.55,0:01:07.27,Sub,,0,0,0,,{\pos(288,830)}pero conmigo se
+Dialogue: 0,0:01:07.27,0:01:08.12,Sub,,0,0,0,,{\pos(288,830)}ha portado… bueno,
+Dialogue: 0,0:01:08.12,0:01:08.68,Sub,,0,0,0,,{\pos(288,830)}casi. Ya lo
+Dialogue: 0,0:01:08.68,0:01:09.18,Sub,,0,0,0,,{\pos(288,830)}veréis.
+Dialogue: 0,0:01:09.20,0:01:10.01,Sub,,0,0,0,,{\pos(288,830)}Tiene {\c&H2CD2F7&}doble{\c&HFFFFFF&} {\c&H2CD2F7&}capa{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.01,0:01:10.59,Sub,,0,0,0,,{\pos(288,830)}de pelo: si
+Dialogue: 0,0:01:10.59,0:01:11.35,Sub,,0,0,0,,{\pos(288,830)}se queda húmedo
+Dialogue: 0,0:01:11.35,0:01:12.06,Sub,,0,0,0,,{\pos(288,830)}por dentro, da
+Dialogue: 0,0:01:12.06,0:01:13.06,Sub,,0,0,0,,{\pos(288,830)}problemas de {\c&H2CD2F7&}piel.{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.08,0:01:13.58,Sub,,0,0,0,,{\pos(288,830)}Y no, no
+Dialogue: 0,0:01:13.58,0:01:14.43,Sub,,0,0,0,,{\pos(288,830)}hay que {\c&H2CD2F7&}raparlo{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.43,0:01:15.23,Sub,,0,0,0,,{\pos(288,830)}en {\c&H2CD2F7&}verano.{\c&HFFFFFF&} Esa
+Dialogue: 0,0:01:15.23,0:01:16.23,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}doble{\c&HFFFFFF&} {\c&H2CD2F7&}capa{\c&HFFFFFF&} también
+Dialogue: 0,0:01:16.23,0:01:17.03,Sub,,0,0,0,,{\pos(288,830)}le protege del
+Dialogue: 0,0:01:17.03,0:01:18.03,Sub,,0,0,0,,{\pos(288,830)}calor.
+Dialogue: 0,0:01:18.40,0:01:19.00,Sub,,0,0,0,,{\pos(288,830)}Antes de elegir
+Dialogue: 0,0:01:19.00,0:01:19.86,Sub,,0,0,0,,{\pos(288,830)}un cachorro, infórmate
+Dialogue: 0,0:01:19.86,0:01:20.39,Sub,,0,0,0,,{\pos(288,830)}bien sobre la
+Dialogue: 0,0:01:20.39,0:01:20.85,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}raza:{\c&HFFFFFF&} no te
+Dialogue: 0,0:01:20.85,0:01:21.46,Sub,,0,0,0,,{\pos(288,830)}quedes solo con
+Dialogue: 0,0:01:21.46,0:01:21.99,Sub,,0,0,0,,{\pos(288,830)}lo bonito que
+Dialogue: 0,0:01:21.99,0:01:22.58,Sub,,0,0,0,,{\pos(288,830)}es en fotos.
+Dialogue: 0,0:01:22.60,0:01:23.42,Sub,,0,0,0,,{\pos(288,830)}Con el cepillo
+Dialogue: 0,0:01:23.42,0:01:23.98,Sub,,0,0,0,,{\pos(288,830)}no es muy
+Dialogue: 0,0:01:23.98,0:01:24.90,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}amigo.{\c&HFFFFFF&} Tiene los
+Dialogue: 0,0:01:24.90,0:01:25.97,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}dientes{\c&HFFFFFF&} como {\c&H2CD2F7&}agujas{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.97,0:01:26.53,Sub,,0,0,0,,{\pos(288,830)}y, a este
+Dialogue: 0,0:01:26.53,0:01:27.25,Sub,,0,0,0,,{\pos(288,830)}ritmo, voy a
+Dialogue: 0,0:01:27.25,0:01:28.50,Sub,,0,0,0,,{\pos(288,830)}acabar sin manos.
+Dialogue: 0,0:01:28.52,0:01:29.27,Sub,,0,0,0,,{\pos(288,830)}Mi {\c&H2CD2F7&}truco:{\c&HFFFFFF&} un
+Dialogue: 0,0:01:29.27,0:01:30.19,Sub,,0,0,0,,{\pos(288,830)}juguete de {\c&H2CD2F7&}goma{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.19,0:01:30.99,Sub,,0,0,0,,{\pos(288,830)}enorme. Él se
+Dialogue: 0,0:01:30.99,0:01:32.07,Sub,,0,0,0,,{\pos(288,830)}entretiene un rato
+Dialogue: 0,0:01:32.07,0:01:32.71,Sub,,0,0,0,,{\pos(288,830)}y yo puedo
+Dialogue: 0,0:01:32.71,0:01:34.44,Sub,,0,0,0,,{\pos(288,830)}terminar tranquila.
+Dialogue: 0,0:01:34.60,0:01:35.53,Sub,,0,0,0,,{\pos(288,830)}Y ahora vuestra
+Dialogue: 0,0:01:35.53,0:01:36.68,Sub,,0,0,0,,{\pos(288,830)}parte favorita: las
+Dialogue: 0,0:01:36.68,0:01:37.55,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}patitas.{\c&HFFFFFF&} No lo
+Dialogue: 0,0:01:37.55,0:01:38.48,Sub,,0,0,0,,{\pos(288,830)}neguéis, que lo
+Dialogue: 0,0:01:38.48,0:01:39.18,Sub,,0,0,0,,{\pos(288,830)}sé.
+Dialogue: 0,0:01:39.20,0:01:39.88,Sub,,0,0,0,,{\pos(288,830)}Ha sido toda
+Dialogue: 0,0:01:39.88,0:01:40.61,Sub,,0,0,0,,{\pos(288,830)}una prueba de
+Dialogue: 0,0:01:40.61,0:01:41.74,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}paciencia…{\c&HFFFFFF&} sobre todo
+Dialogue: 0,0:01:41.74,0:01:42.92,Sub,,0,0,0,,{\pos(288,830)}de la mía.
+Dialogue: 0,0:01:44.96,0:01:46.12,Sub,,0,0,0,,{\pos(288,830)}Después tocaba limpiar
+Dialogue: 0,0:01:46.12,0:01:47.00,Sub,,0,0,0,,{\pos(288,830)}las {\c&H2CD2F7&}orejas,{\c&HFFFFFF&} pero
+Dialogue: 0,0:01:47.00,0:01:47.92,Sub,,0,0,0,,{\pos(288,830)}el señorito tenía
+Dialogue: 0,0:01:47.92,0:01:48.74,Sub,,0,0,0,,{\pos(288,830)}otros {\c&H2CD2F7&}planes.{\c&HFFFFFF&}
+Dialogue: 0,0:01:48.76,0:01:49.39,Sub,,0,0,0,,{\pos(288,830)}Al final lo
+Dialogue: 0,0:01:49.39,0:01:50.40,Sub,,0,0,0,,{\pos(288,830)}conseguimos, y para
+Dialogue: 0,0:01:50.40,0:01:51.37,Sub,,0,0,0,,{\pos(288,830)}terminar, un {\c&H2CD2F7&}sérum{\c&HFFFFFF&}
+Dialogue: 0,0:01:51.37,0:01:52.19,Sub,,0,0,0,,{\pos(288,830)}de acabado para
+Dialogue: 0,0:01:52.19,0:01:52.82,Sub,,0,0,0,,{\pos(288,830)}que el pelo
+Dialogue: 0,0:01:52.82,0:01:53.54,Sub,,0,0,0,,{\pos(288,830)}quede {\c&H2CD2F7&}suave{\c&HFFFFFF&} y
+Dialogue: 0,0:01:53.54,0:01:54.72,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}brillante.{\c&HFFFFFF&}
+Dialogue: 0,0:01:54.96,0:01:55.79,Sub,,0,0,0,,{\pos(288,830)}Huele tan bien
+Dialogue: 0,0:01:55.79,0:01:56.36,Sub,,0,0,0,,{\pos(288,830)}que me lo
+Dialogue: 0,0:01:56.36,0:01:57.09,Sub,,0,0,0,,{\pos(288,830)}voy a probar
+Dialogue: 0,0:01:57.09,0:01:57.82,Sub,,0,0,0,,{\pos(288,830)}en mi propio
+Dialogue: 0,0:01:57.82,0:01:58.59,Sub,,0,0,0,,{\pos(288,830)}pelo. Y ahora
+Dialogue: 0,0:01:58.59,0:01:59.43,Sub,,0,0,0,,{\pos(288,830)}sí: patitas al
+Dialogue: 0,0:01:59.43,0:02:00.00,Sub,,0,0,0,,{\pos(288,830)}suelo y a
+Dialogue: 0,0:02:00.00,0:02:00.96,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}casa.{\c&HFFFFFF&}
+Dialogue: 0,0:02:02.40,0:02:03.45,Sub,,0,0,0,,{\pos(288,830)}Hablando en serio:
+Dialogue: 0,0:02:03.45,0:02:04.28,Sub,,0,0,0,,{\pos(288,830)}le perdono los
+Dialogue: 0,0:02:04.28,0:02:05.59,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}mordiscos,{\c&HFFFFFF&} los {\c&H2CD2F7&}arañazos{\c&HFFFFFF&}
+Dialogue: 0,0:02:05.59,0:02:06.17,Sub,,0,0,0,,{\pos(288,830)}y todo lo
+Dialogue: 0,0:02:06.17,0:02:07.11,Sub,,0,0,0,,{\pos(288,830)}que ha intentado
+Dialogue: 0,0:02:07.11,0:02:07.94,Sub,,0,0,0,,{\pos(288,830)}comerse hoy.
+Dialogue: 0,0:02:07.96,0:02:08.45,Sub,,0,0,0,,{\pos(288,830)}Un par de
+Dialogue: 0,0:02:08.45,0:02:09.11,Sub,,0,0,0,,{\pos(288,830)}marcas en las
+Dialogue: 0,0:02:09.11,0:02:09.82,Sub,,0,0,0,,{\pos(288,830)}manos a cambio
+Dialogue: 0,0:02:09.82,0:02:10.40,Sub,,0,0,0,,{\pos(288,830)}de un nuevo
+Dialogue: 0,0:02:10.40,0:02:11.29,Sub,,0,0,0,,{\pos(288,830)}mejor {\c&H2CD2F7&}amigo.{\c&HFFFFFF&} Trato
+Dialogue: 0,0:02:11.29,0:02:11.74,Sub,,0,0,0,,{\pos(288,830)}hecho.
+Dialogue: 0,0:02:11.76,0:02:12.72,Sub,,0,0,0,,{\pos(288,830)}Se vienen semanas
+Dialogue: 0,0:02:12.72,0:02:13.82,Sub,,0,0,0,,{\pos(288,830)}llenas de {\c&H2CD2F7&}cachorros,{\c&HFFFFFF&}
+Dialogue: 0,0:02:13.82,0:02:14.78,Sub,,0,0,0,,{\pos(288,830)}así que preparaos
+Dialogue: 0,0:02:14.78,0:02:15.58,Sub,,0,0,0,,{\pos(288,830)}para una dosis
+Dialogue: 0,0:02:15.58,0:02:16.90,Sub,,0,0,0,,{\pos(288,830)}extra de {\c&H2CD2F7&}ternura.{\c&HFFFFFF&}
+Dialogue: 0,0:02:16.92,0:02:17.52,Sub,,0,0,0,,{\pos(288,830)}Y aquí os
+Dialogue: 0,0:02:17.52,0:02:18.33,Sub,,0,0,0,,{\pos(288,830)}dejo a {\c&H2CD2F7&}Copito{\c&HFFFFFF&}
+Dialogue: 0,0:02:18.33,0:02:19.09,Sub,,0,0,0,,{\pos(288,830)}con su mejor
+Dialogue: 0,0:02:19.09,0:02:20.02,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}look.{\c&HFFFFFF&} ¿Qué {\c&H2CD2F7&}raza{\c&HFFFFFF&}
+Dialogue: 0,0:02:20.02,0:02:20.89,Sub,,0,0,0,,{\pos(288,830)}queréis ver la
+Dialogue: 0,0:02:20.89,0:02:21.81,Sub,,0,0,0,,{\pos(288,830)}próxima vez? Os
+Dialogue: 0,0:02:21.81,0:02:23.55,Sub,,0,0,0,,{\pos(288,830)}leo en {\c&H2CD2F7&}comentarios.{\c&HFFFFFF&}
