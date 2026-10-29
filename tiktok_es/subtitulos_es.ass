@@ -1,0 +1,218 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 576
+PlayResY: 1024
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,38,&H00FFFFFF,&H00FFFFFF,&H00141414,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,5,20,20,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.56,Sub,,0,0,0,,{\pos(288,680)}¿Sabías que
+Dialogue: 0,0:00:00.56,0:00:00.87,Sub,,0,0,0,,{\pos(288,680)}si tu
+Dialogue: 0,0:00:00.87,0:00:01.30,Sub,,0,0,0,,{\pos(288,680)}perro te
+Dialogue: 0,0:00:01.30,0:00:01.82,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}suplica{\c&HFFFFFF&} tu
+Dialogue: 0,0:00:01.82,0:00:02.51,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}comida{\c&HFFFFFF&} durante
+Dialogue: 0,0:00:02.51,0:00:02.90,Sub,,0,0,0,,{\pos(288,680)}todo el
+Dialogue: 0,0:00:02.90,0:00:03.54,Sub,,0,0,0,,{\pos(288,680)}almuerzo,
+Dialogue: 0,0:00:03.66,0:00:03.88,Sub,,0,0,0,,{\pos(288,680)}no es
+Dialogue: 0,0:00:03.88,0:00:04.22,Sub,,0,0,0,,{\pos(288,680)}para nada
+Dialogue: 0,0:00:04.22,0:00:04.66,Sub,,0,0,0,,{\pos(288,680)}porque tenga
+Dialogue: 0,0:00:04.66,0:00:05.10,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}hambre,{\c&HFFFFFF&} sino
+Dialogue: 0,0:00:05.10,0:00:05.38,Sub,,0,0,0,,{\pos(288,680)}por una
+Dialogue: 0,0:00:05.38,0:00:05.78,Sub,,0,0,0,,{\pos(288,680)}razón mucho
+Dialogue: 0,0:00:05.78,0:00:06.32,Sub,,0,0,0,,{\pos(288,680)}más {\c&H00E5FF&}inquietante{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.32,0:00:06.53,Sub,,0,0,0,,{\pos(288,680)}de lo
+Dialogue: 0,0:00:06.53,0:00:07.00,Sub,,0,0,0,,{\pos(288,680)}que imaginas?
+Dialogue: 0,0:00:07.06,0:00:07.45,Sub,,0,0,0,,{\pos(288,680)}Cada {\c&H00E5FF&}domingo{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.45,0:00:07.70,Sub,,0,0,0,,{\pos(288,680)}en casa
+Dialogue: 0,0:00:07.70,0:00:08.03,Sub,,0,0,0,,{\pos(288,680)}de {\c&H00E5FF&}Sophia,{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.03,0:00:08.33,Sub,,0,0,0,,{\pos(288,680)}en cuanto
+Dialogue: 0,0:00:08.33,0:00:08.66,Sub,,0,0,0,,{\pos(288,680)}la familia
+Dialogue: 0,0:00:08.66,0:00:08.97,Sub,,0,0,0,,{\pos(288,680)}se sienta
+Dialogue: 0,0:00:08.97,0:00:09.13,Sub,,0,0,0,,{\pos(288,680)}a la
+Dialogue: 0,0:00:09.13,0:00:09.33,Sub,,0,0,0,,{\pos(288,680)}mesa,
+Dialogue: 0,0:00:09.38,0:00:09.74,Sub,,0,0,0,,{\pos(288,680)}su perro
+Dialogue: 0,0:00:09.74,0:00:10.16,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}Pipi{\c&HFFFFFF&} apoya
+Dialogue: 0,0:00:10.16,0:00:10.55,Sub,,0,0,0,,{\pos(288,680)}la cabeza
+Dialogue: 0,0:00:10.55,0:00:10.84,Sub,,0,0,0,,{\pos(288,680)}en las
+Dialogue: 0,0:00:10.84,0:00:11.26,Sub,,0,0,0,,{\pos(288,680)}piernas de
+Dialogue: 0,0:00:11.26,0:00:11.58,Sub,,0,0,0,,{\pos(288,680)}todos y
+Dialogue: 0,0:00:11.58,0:00:12.01,Sub,,0,0,0,,{\pos(288,680)}sigue cada
+Dialogue: 0,0:00:12.01,0:00:12.47,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}tenedor{\c&HFFFFFF&} con
+Dialogue: 0,0:00:12.47,0:00:12.90,Sub,,0,0,0,,{\pos(288,680)}la mirada.
+Dialogue: 0,0:00:12.96,0:00:13.36,Sub,,0,0,0,,{\pos(288,680)}Su padre,
+Dialogue: 0,0:00:13.36,0:00:13.72,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}Caca,{\c&HFFFFFF&} lo
+Dialogue: 0,0:00:13.72,0:00:14.05,Sub,,0,0,0,,{\pos(288,680)}manda a
+Dialogue: 0,0:00:14.05,0:00:14.41,Sub,,0,0,0,,{\pos(288,680)}su cama,
+Dialogue: 0,0:00:14.41,0:00:14.81,Sub,,0,0,0,,{\pos(288,680)}porque en
+Dialogue: 0,0:00:14.81,0:00:15.18,Sub,,0,0,0,,{\pos(288,680)}su casa,
+Dialogue: 0,0:00:15.18,0:00:15.43,Sub,,0,0,0,,{\pos(288,680)}en la
+Dialogue: 0,0:00:15.43,0:00:15.91,Sub,,0,0,0,,{\pos(288,680)}mesa, {\c&H00E5FF&}nunca{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.91,0:00:16.16,Sub,,0,0,0,,{\pos(288,680)}se da
+Dialogue: 0,0:00:16.16,0:00:16.42,Sub,,0,0,0,,{\pos(288,680)}nada.
+Dialogue: 0,0:00:16.48,0:00:16.81,Sub,,0,0,0,,{\pos(288,680)}Pero {\c&H00E5FF&}30{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.81,0:00:17.50,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}segundos{\c&HFFFFFF&} después,
+Dialogue: 0,0:00:17.50,0:00:17.83,Sub,,0,0,0,,{\pos(288,680)}Pipi ha
+Dialogue: 0,0:00:17.83,0:00:18.16,Sub,,0,0,0,,{\pos(288,680)}vuelto.
+Dialogue: 0,0:00:18.22,0:00:18.57,Sub,,0,0,0,,{\pos(288,680)}Solo que
+Dialogue: 0,0:00:18.57,0:00:18.89,Sub,,0,0,0,,{\pos(288,680)}bajo el
+Dialogue: 0,0:00:18.89,0:00:19.41,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}mantel,{\c&HFFFFFF&} {\c&H00E5FF&}Mamie{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.41,0:00:19.94,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}Chou-fleur{\c&HFFFFFF&} le
+Dialogue: 0,0:00:19.94,0:00:20.32,Sub,,0,0,0,,{\pos(288,680)}pasa pan.
+Dialogue: 0,0:00:20.38,0:00:20.88,Sub,,0,0,0,,{\pos(288,680)}El hermanito,
+Dialogue: 0,0:00:20.88,0:00:21.28,Sub,,0,0,0,,{\pos(288,680)}sus {\c&H00E5FF&}judías{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.28,0:00:21.58,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}verdes.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.64,0:00:21.84,Sub,,0,0,0,,{\pos(288,680)}Y al
+Dialogue: 0,0:00:21.84,0:00:22.17,Sub,,0,0,0,,{\pos(288,680)}final de
+Dialogue: 0,0:00:22.17,0:00:22.57,Sub,,0,0,0,,{\pos(288,680)}la comida,
+Dialogue: 0,0:00:22.57,0:00:22.80,Sub,,0,0,0,,{\pos(288,680)}es el
+Dialogue: 0,0:00:22.80,0:00:23.24,Sub,,0,0,0,,{\pos(288,680)}propio {\c&H00E5FF&}Caca{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.24,0:00:23.57,Sub,,0,0,0,,{\pos(288,680)}quien le
+Dialogue: 0,0:00:23.57,0:00:23.80,Sub,,0,0,0,,{\pos(288,680)}da la
+Dialogue: 0,0:00:23.80,0:00:24.13,Sub,,0,0,0,,{\pos(288,680)}piel del
+Dialogue: 0,0:00:24.13,0:00:24.40,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}pollo.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.46,0:00:24.77,Sub,,0,0,0,,{\pos(288,680)}Y para
+Dialogue: 0,0:00:24.77,0:00:25.11,Sub,,0,0,0,,{\pos(288,680)}toda la
+Dialogue: 0,0:00:25.11,0:00:25.69,Sub,,0,0,0,,{\pos(288,680)}familia, {\c&H00E5FF&}Pipi{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.69,0:00:25.99,Sub,,0,0,0,,{\pos(288,680)}es una
+Dialogue: 0,0:00:25.99,0:00:26.49,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}barriga{\c&HFFFFFF&} {\c&H00E5FF&}con{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.49,0:00:26.80,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}patas,{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.86,0:00:27.34,Sub,,0,0,0,,{\pos(288,680)}cuando acaba
+Dialogue: 0,0:00:27.34,0:00:27.72,Sub,,0,0,0,,{\pos(288,680)}de vaciar
+Dialogue: 0,0:00:27.72,0:00:28.10,Sub,,0,0,0,,{\pos(288,680)}su cuenco
+Dialogue: 0,0:00:28.10,0:00:28.51,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}10{\c&HFFFFFF&} {\c&H00E5FF&}minutos{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.51,0:00:28.78,Sub,,0,0,0,,{\pos(288,680)}antes.
+Dialogue: 0,0:00:28.84,0:00:29.40,Sub,,0,0,0,,{\pos(288,680)}Pero entonces,
+Dialogue: 0,0:00:29.40,0:00:29.76,Sub,,0,0,0,,{\pos(288,680)}¿por qué
+Dialogue: 0,0:00:29.76,0:00:30.32,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}insiste{\c&HFFFFFF&} tanto?
+Dialogue: 0,0:00:30.38,0:00:31.00,Sub,,0,0,0,,{\pos(288,680)}Primero, porque
+Dialogue: 0,0:00:31.00,0:00:31.39,Sub,,0,0,0,,{\pos(288,680)}su {\c&H00E5FF&}hocico{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.39,0:00:31.87,Sub,,0,0,0,,{\pos(288,680)}tiene hasta
+Dialogue: 0,0:00:31.87,0:00:32.23,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}50{\c&HFFFFFF&} {\c&H00E5FF&}veces{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.23,0:00:32.81,Sub,,0,0,0,,{\pos(288,680)}más receptores
+Dialogue: 0,0:00:32.81,0:00:33.13,Sub,,0,0,0,,{\pos(288,680)}de olor
+Dialogue: 0,0:00:33.13,0:00:33.61,Sub,,0,0,0,,{\pos(288,680)}que nuestra
+Dialogue: 0,0:00:33.61,0:00:33.90,Sub,,0,0,0,,{\pos(288,680)}nariz,
+Dialogue: 0,0:00:33.96,0:00:34.36,Sub,,0,0,0,,{\pos(288,680)}y porque
+Dialogue: 0,0:00:34.36,0:00:34.71,Sub,,0,0,0,,{\pos(288,680)}él come
+Dialogue: 0,0:00:34.71,0:00:35.15,Sub,,0,0,0,,{\pos(288,680)}todos los
+Dialogue: 0,0:00:35.15,0:00:35.67,Sub,,0,0,0,,{\pos(288,680)}días {\c&H00E5FF&}pienso{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.67,0:00:35.98,Sub,,0,0,0,,{\pos(288,680)}con el
+Dialogue: 0,0:00:35.98,0:00:36.50,Sub,,0,0,0,,{\pos(288,680)}mismo {\c&H00E5FF&}olor.{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.56,0:00:36.91,Sub,,0,0,0,,{\pos(288,680)}Así que
+Dialogue: 0,0:00:36.91,0:00:37.29,Sub,,0,0,0,,{\pos(288,680)}el {\c&H00E5FF&}pollo{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.29,0:00:37.80,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}asado{\c&HFFFFFF&} justo
+Dialogue: 0,0:00:37.80,0:00:38.22,Sub,,0,0,0,,{\pos(288,680)}encima de
+Dialogue: 0,0:00:38.22,0:00:38.68,Sub,,0,0,0,,{\pos(288,680)}su cabeza,
+Dialogue: 0,0:00:38.74,0:00:39.17,Sub,,0,0,0,,{\pos(288,680)}para él,
+Dialogue: 0,0:00:39.17,0:00:39.47,Sub,,0,0,0,,{\pos(288,680)}es el
+Dialogue: 0,0:00:39.47,0:00:39.98,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}mejor{\c&HFFFFFF&} {\c&H00E5FF&}olor{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.98,0:00:40.37,Sub,,0,0,0,,{\pos(288,680)}de toda
+Dialogue: 0,0:00:40.37,0:00:40.88,Sub,,0,0,0,,{\pos(288,680)}su semana.
+Dialogue: 0,0:00:40.94,0:00:41.30,Sub,,0,0,0,,{\pos(288,680)}Pero lo
+Dialogue: 0,0:00:41.30,0:00:41.67,Sub,,0,0,0,,{\pos(288,680)}peor es
+Dialogue: 0,0:00:41.67,0:00:42.07,Sub,,0,0,0,,{\pos(288,680)}que Pipi
+Dialogue: 0,0:00:42.07,0:00:42.56,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}nunca{\c&HFFFFFF&} {\c&H00E5FF&}sabe{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.56,0:00:42.84,Sub,,0,0,0,,{\pos(288,680)}si de
+Dialogue: 0,0:00:42.84,0:00:43.29,Sub,,0,0,0,,{\pos(288,680)}verdad va
+Dialogue: 0,0:00:43.29,0:00:43.81,Sub,,0,0,0,,{\pos(288,680)}a {\c&H00E5FF&}conseguir{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.81,0:00:44.10,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}algo.{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.16,0:00:44.61,Sub,,0,0,0,,{\pos(288,680)}Un {\c&H00E5FF&}domingo,{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.61,0:00:44.96,Sub,,0,0,0,,{\pos(288,680)}es Mamie
+Dialogue: 0,0:00:44.96,0:00:45.31,Sub,,0,0,0,,{\pos(288,680)}quien le
+Dialogue: 0,0:00:45.31,0:00:45.56,Sub,,0,0,0,,{\pos(288,680)}da de
+Dialogue: 0,0:00:45.56,0:00:45.84,Sub,,0,0,0,,{\pos(288,680)}comer.
+Dialogue: 0,0:00:45.90,0:00:46.40,Sub,,0,0,0,,{\pos(288,680)}El domingo
+Dialogue: 0,0:00:46.40,0:00:47.20,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}siguiente,{\c&HFFFFFF&} nadie.
+Dialogue: 0,0:00:47.26,0:00:47.60,Sub,,0,0,0,,{\pos(288,680)}Luego, al
+Dialogue: 0,0:00:47.60,0:00:48.11,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}día{\c&HFFFFFF&} {\c&H00E5FF&}siguiente,{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.11,0:00:48.39,Sub,,0,0,0,,{\pos(288,680)}Caca le
+Dialogue: 0,0:00:48.39,0:00:48.61,Sub,,0,0,0,,{\pos(288,680)}da un
+Dialogue: 0,0:00:48.61,0:00:48.92,Sub,,0,0,0,,{\pos(288,680)}trocito.
+Dialogue: 0,0:00:48.98,0:00:49.25,Sub,,0,0,0,,{\pos(288,680)}Y una
+Dialogue: 0,0:00:49.25,0:00:49.88,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}recompensa{\c&HFFFFFF&} que
+Dialogue: 0,0:00:49.88,0:00:50.19,Sub,,0,0,0,,{\pos(288,680)}cae {\c&H00E5FF&}al{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.19,0:00:50.54,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}azar{\c&HFFFFFF&} es
+Dialogue: 0,0:00:50.54,0:00:50.85,Sub,,0,0,0,,{\pos(288,680)}lo que
+Dialogue: 0,0:00:50.85,0:00:51.24,Sub,,0,0,0,,{\pos(288,680)}más hace
+Dialogue: 0,0:00:51.24,0:00:51.71,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}insistir{\c&HFFFFFF&} a
+Dialogue: 0,0:00:51.71,0:00:52.14,Sub,,0,0,0,,{\pos(288,680)}un perro.
+Dialogue: 0,0:00:52.20,0:00:52.68,Sub,,0,0,0,,{\pos(288,680)}Porque {\c&H00E5FF&}cada{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.68,0:00:53.16,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}vez,{\c&HFFFFFF&} piensa
+Dialogue: 0,0:00:53.16,0:00:53.61,Sub,,0,0,0,,{\pos(288,680)}que quizás
+Dialogue: 0,0:00:53.61,0:00:53.91,Sub,,0,0,0,,{\pos(288,680)}sea {\c&H00E5FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.91,0:00:54.20,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}buena.{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.26,0:00:54.56,Sub,,0,0,0,,{\pos(288,680)}Así que
+Dialogue: 0,0:00:54.56,0:00:54.94,Sub,,0,0,0,,{\pos(288,680)}Pipi pasa
+Dialogue: 0,0:00:54.94,0:00:55.24,Sub,,0,0,0,,{\pos(288,680)}toda la
+Dialogue: 0,0:00:55.24,0:00:55.88,Sub,,0,0,0,,{\pos(288,680)}comida {\c&H00E5FF&}estresado,{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.88,0:00:56.36,Sub,,0,0,0,,{\pos(288,680)}vigilando el
+Dialogue: 0,0:00:56.36,0:00:56.76,Sub,,0,0,0,,{\pos(288,680)}momento en
+Dialogue: 0,0:00:56.76,0:00:57.20,Sub,,0,0,0,,{\pos(288,680)}que alguien
+Dialogue: 0,0:00:57.20,0:00:57.41,Sub,,0,0,0,,{\pos(288,680)}va a
+Dialogue: 0,0:00:57.41,0:00:57.68,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}ceder.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.74,0:00:58.32,Sub,,0,0,0,,{\pos(288,680)}Y justamente
+Dialogue: 0,0:00:58.32,0:00:58.69,Sub,,0,0,0,,{\pos(288,680)}por eso
+Dialogue: 0,0:00:58.69,0:00:59.35,Sub,,0,0,0,,{\pos(288,680)}los {\c&H00E5FF&}educadores{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.35,0:00:59.72,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}caninos{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.78,0:01:00.30,Sub,,0,0,0,,{\pos(288,680)}aconsejan hacer
+Dialogue: 0,0:01:00.30,0:01:00.73,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}lo{\c&HFFFFFF&} {\c&H00E5FF&}contrario{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.73,0:01:00.94,Sub,,0,0,0,,{\pos(288,680)}de lo
+Dialogue: 0,0:01:00.94,0:01:01.24,Sub,,0,0,0,,{\pos(288,680)}que todo
+Dialogue: 0,0:01:01.24,0:01:01.55,Sub,,0,0,0,,{\pos(288,680)}el mundo
+Dialogue: 0,0:01:01.55,0:01:01.76,Sub,,0,0,0,,{\pos(288,680)}cree.
+Dialogue: 0,0:01:01.82,0:01:02.15,Sub,,0,0,0,,{\pos(288,680)}Darle de
+Dialogue: 0,0:01:02.15,0:01:02.48,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}comer{\c&HFFFFFF&} en
+Dialogue: 0,0:01:02.48,0:01:02.80,Sub,,0,0,0,,{\pos(288,680)}la mesa,
+Dialogue: 0,0:01:02.80,0:01:03.26,Sub,,0,0,0,,{\pos(288,680)}pero siempre
+Dialogue: 0,0:01:03.26,0:01:03.49,Sub,,0,0,0,,{\pos(288,680)}en el
+Dialogue: 0,0:01:03.49,0:01:04.02,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}mismo{\c&HFFFFFF&} {\c&H00E5FF&}momento.{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.08,0:01:04.57,Sub,,0,0,0,,{\pos(288,680)}Un trocito
+Dialogue: 0,0:01:04.57,0:01:04.97,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}antes{\c&HFFFFFF&} de
+Dialogue: 0,0:01:04.97,0:01:05.54,Sub,,0,0,0,,{\pos(288,680)}comer, luego
+Dialogue: 0,0:01:05.54,0:01:05.99,Sub,,0,0,0,,{\pos(288,680)}directo a
+Dialogue: 0,0:01:05.99,0:01:06.39,Sub,,0,0,0,,{\pos(288,680)}su {\c&H00E5FF&}cama,{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.39,0:01:06.71,Sub,,0,0,0,,{\pos(288,680)}y otro
+Dialogue: 0,0:01:06.71,0:01:07.16,Sub,,0,0,0,,{\pos(288,680)}al final.
+Dialogue: 0,0:01:07.22,0:01:07.71,Sub,,0,0,0,,{\pos(288,680)}Todo porque
+Dialogue: 0,0:01:07.71,0:01:08.09,Sub,,0,0,0,,{\pos(288,680)}un perro
+Dialogue: 0,0:01:08.09,0:01:08.70,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}necesita{\c&HFFFFFF&} poder
+Dialogue: 0,0:01:08.70,0:01:09.04,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}prever.{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.10,0:01:09.30,Sub,,0,0,0,,{\pos(288,680)}Y en
+Dialogue: 0,0:01:09.30,0:01:09.73,Sub,,0,0,0,,{\pos(288,680)}cuanto {\c&H00E5FF&}Pipi{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.73,0:01:10.16,Sub,,0,0,0,,{\pos(288,680)}sabe cuándo
+Dialogue: 0,0:01:10.16,0:01:10.36,Sub,,0,0,0,,{\pos(288,680)}va a
+Dialogue: 0,0:01:10.36,0:01:10.66,Sub,,0,0,0,,{\pos(288,680)}caer su
+Dialogue: 0,0:01:10.66,0:01:11.09,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}trocito,{\c&HFFFFFF&} ya
+Dialogue: 0,0:01:11.09,0:01:11.42,Sub,,0,0,0,,{\pos(288,680)}no tiene
+Dialogue: 0,0:01:11.42,0:01:11.75,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}nada{\c&HFFFFFF&} que
+Dialogue: 0,0:01:11.75,0:01:12.08,Sub,,0,0,0,,{\pos(288,680)}vigilar.
+Dialogue: 0,0:01:12.14,0:01:12.36,Sub,,0,0,0,,{\pos(288,680)}Y al
+Dialogue: 0,0:01:12.36,0:01:12.70,Sub,,0,0,0,,{\pos(288,680)}cabo de
+Dialogue: 0,0:01:12.70,0:01:13.14,Sub,,0,0,0,,{\pos(288,680)}unos días,
+Dialogue: 0,0:01:13.14,0:01:13.55,Sub,,0,0,0,,{\pos(288,680)}espera en
+Dialogue: 0,0:01:13.55,0:01:13.89,Sub,,0,0,0,,{\pos(288,680)}su {\c&H00E5FF&}cama{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.89,0:01:14.41,Sub,,0,0,0,,{\pos(288,680)}sin siquiera
+Dialogue: 0,0:01:14.41,0:01:14.81,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}mirar{\c&HFFFFFF&} los
+Dialogue: 0,0:01:14.81,0:01:15.26,Sub,,0,0,0,,{\pos(288,680)}tenedores.
+Dialogue: 0,0:01:15.32,0:01:15.64,Sub,,0,0,0,,{\pos(288,680)}Así que
+Dialogue: 0,0:01:15.64,0:01:15.89,Sub,,0,0,0,,{\pos(288,680)}si tu
+Dialogue: 0,0:01:15.89,0:01:16.25,Sub,,0,0,0,,{\pos(288,680)}perro te
+Dialogue: 0,0:01:16.25,0:01:16.86,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}suplica{\c&HFFFFFF&} durante
+Dialogue: 0,0:01:16.86,0:01:17.18,Sub,,0,0,0,,{\pos(288,680)}toda la
+Dialogue: 0,0:01:17.18,0:01:17.50,Sub,,0,0,0,,{\pos(288,680)}comida,
+Dialogue: 0,0:01:17.56,0:01:17.87,Sub,,0,0,0,,{\pos(288,680)}que sepas
+Dialogue: 0,0:01:17.87,0:01:18.09,Sub,,0,0,0,,{\pos(288,680)}que no
+Dialogue: 0,0:01:18.09,0:01:18.32,Sub,,0,0,0,,{\pos(288,680)}es una
+Dialogue: 0,0:01:18.32,0:01:18.68,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}barriga{\c&HFFFFFF&} {\c&H00E5FF&}con{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.68,0:01:18.90,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}patas.{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.96,0:01:19.36,Sub,,0,0,0,,{\pos(288,680)}Es solo
+Dialogue: 0,0:01:19.36,0:01:19.80,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}un{\c&HFFFFFF&} {\c&H00E5FF&}perro{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.80,0:01:20.28,Sub,,0,0,0,,{\pos(288,680)}que {\c&H00E5FF&}nunca{\c&HFFFFFF&}
+Dialogue: 0,0:01:20.28,0:01:20.68,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}sabe{\c&HFFFFFF&} si
+Dialogue: 0,0:01:20.68,0:01:21.17,Sub,,0,0,0,,{\pos(288,680)}de verdad
+Dialogue: 0,0:01:21.17,0:01:21.43,Sub,,0,0,0,,{\pos(288,680)}va a
+Dialogue: 0,0:01:21.43,0:01:22.18,Sub,,0,0,0,,{\pos(288,680)}{\c&H00E5FF&}conseguir{\c&HFFFFFF&} algo.
