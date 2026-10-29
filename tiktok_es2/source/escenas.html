@@ -140,8 +140,14 @@ const meter=(l)=>`<rect x="-120" y="-24" width="240" height="48" rx="24" fill="#
 /* ---------- shots (times follow the voice blocks) ---------- */
 const SH=[];const shot=(t0,f)=>SH.push([t0,f]);
 // 0:00 accroche
-shot(0,(lt,t)=>stripes('#bfe3f7','#b0dcf5')+G(288,520,2.6,pupHead({expr:'neutral',t,lx:Math.sin(t*1.5)}),Math.sin(t*2)*5));
-shot(4.2,(lt,t)=>stripes('#bfe3f7','#b0dcf5')+G(288,520,2.6,pupHead({expr:'happy',t}),8)+[[120,240],[460,260],[110,560]].map(([x,y],i)=>P(x,y-((lt*40)%40),1.2,lt,.3+i*.2,heart())).join(''));
+function hookTitle(l1,l2,lt){const sh=lt<.25?Math.sin(lt*90)*6:0;return G(288+sh,0,1,`<rect x="-270" y="70" width="540" height="190" rx="26" fill="#e23a3a" stroke="${OL}" stroke-width="6" transform="rotate(-3)"/>`+G(0,150,1,txt(l1,Math.min(52,700/l1.length),'#ffffff'),-3)+G(0,222,1,txt(l2,Math.min(56,700/l2.length),'#ffe14a'),-3))}
+const flash=(lt)=>lt<.12?`<rect width="576" height="1024" fill="#fff" opacity="${1-lt/.12}"/>`:'';
+shot(0,(lt,t)=>{const z=lerp(1.9,2.7,prog(lt,0,1.4)),sh=Math.sin(lt*40)*(lt<.4?6:0);
+  return stripes('#ffd84a','#ffcf2e')+G(288+sh,600,z,pupHead({expr:'surprised',t}),Math.sin(t*2)*4)+hookTitle('¿ESPERAR 1 AÑO','A LA PELUQUERÍA?',lt)});
+shot(1.75,(lt,t)=>{const sh=lt<.35?Math.sin(lt*70)*10:0;
+  return stripes('#ffd84a','#ffcf2e')+G(288+sh,600,1.9,calendar(G(0,52,1,txt('1 AÑO',30,'#2a2430'))))+P(288,610,2,lt,.15,bigX())+hookTitle('¡ERROR!','LO ESTÁS HACIENDO MAL',lt)+flash(lt)});
+shot(3.7,(lt,t)=>stripes('#bfe3f7','#b0dcf5')+G(288,560,2.5,pupHead({expr:'happy',t}),8)+P(150,250,1,lt,.1,`<rect x="-110" y="-38" width="220" height="76" rx="38" fill="#3a8fe0" stroke="${OL}" stroke-width="5"/>`+G(0,16,1,txt('4 MESES',40,'#fff')))+[[460,250],[470,880],[110,860]].map(([x,y],i)=>P(x,y-((lt*40)%40),1.2,lt,.3+i*.2,heart())).join(''));
+shot(5.6,(lt,t)=>stripes('#bfe3f7','#b0dcf5')+G(288,560,2.5,pupHead({expr:'bite',t}),-8)+[[120,240],[460,260],[110,560]].map(([x,y],i)=>P(x,y-((lt*40)%40),1.2,lt,.3+i*.2,heart())).join(''));
 // 0:08 route
 shot(8,(lt,t)=>stripes('#d8f0c8','#cdeabb')+`<rect y="560" width="576" height="120" fill="#5a5560"/><path d="M0,620 H576" stroke="#fff" stroke-width="8" stroke-dasharray="40 30" stroke-dashoffset="${t*300}"/>`+G(288,600,1,car())+P(430,300,1,lt,.2,clock(lt*5)));
 shot(10.6,(lt,t)=>salon()+gtable()+G(288,640,1,pup({t,expr:'happy',wag:true}))+[['🛁'],['💨'],['🪮'],['❤']].map((_,i)=>P(90+i*132,200,1,lt,.2+i*.35,[`<circle r="44" fill="#fff" stroke="${OL}" stroke-width="${SW}"/>`+G(0,10,.5,shower(t)),`<circle r="44" fill="#fff" stroke="${OL}" stroke-width="${SW}"/>`+G(-14,0,.4,dryer(t)),`<circle r="44" fill="#fff" stroke="${OL}" stroke-width="${SW}"/>`+G(0,6,.45,brush()),`<circle r="44" fill="#fff" stroke="${OL}" stroke-width="${SW}"/>`+G(0,4,1,heart())][i])).join(''));

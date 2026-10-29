@@ -10,17 +10,18 @@ Style: Sub,DejaVu Sans,36,&H00FFFFFF,&H00FFFFFF,&H00141414,&H64000000,-1,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.71,Sub,,0,0,0,,{\pos(288,830)}Un {\c&H2CD2F7&}cachorro{\c&HFFFFFF&} de
-Dialogue: 0,0:00:00.71,0:00:01.51,Sub,,0,0,0,,{\pos(288,830)}cuatro meses que
-Dialogue: 0,0:00:01.51,0:00:02.26,Sub,,0,0,0,,{\pos(288,830)}parece una nube
-Dialogue: 0,0:00:02.26,0:00:02.97,Sub,,0,0,0,,{\pos(288,830)}con patas. Hoy
-Dialogue: 0,0:00:02.97,0:00:03.67,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}Copito{\c&HFFFFFF&} viene a
-Dialogue: 0,0:00:03.67,0:00:04.52,Sub,,0,0,0,,{\pos(288,830)}su primera visita
-Dialogue: 0,0:00:04.52,0:00:05.31,Sub,,0,0,0,,{\pos(288,830)}de adaptación, y
-Dialogue: 0,0:00:05.31,0:00:05.93,Sub,,0,0,0,,{\pos(288,830)}ya os aviso:
-Dialogue: 0,0:00:05.93,0:00:06.55,Sub,,0,0,0,,{\pos(288,830)}me ha robado
-Dialogue: 0,0:00:06.55,0:00:07.22,Sub,,0,0,0,,{\pos(288,830)}el corazón… y
-Dialogue: 0,0:00:07.22,0:00:07.98,Sub,,0,0,0,,{\pos(288,830)}casi un dedo.
+Dialogue: 0,0:00:00.00,0:00:00.48,Sub,,0,0,0,,{\pos(288,830)}Si esperas a
+Dialogue: 0,0:00:00.48,0:00:01.07,Sub,,0,0,0,,{\pos(288,830)}que tu {\c&H2CD2F7&}cachorro{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.07,0:00:01.59,Sub,,0,0,0,,{\pos(288,830)}cumpla un {\c&H2CD2F7&}año{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.59,0:00:02.17,Sub,,0,0,0,,{\pos(288,830)}para llevarlo a
+Dialogue: 0,0:00:02.17,0:00:02.83,Sub,,0,0,0,,{\pos(288,830)}la {\c&H2CD2F7&}peluquería…{\c&HFFFFFF&} lo
+Dialogue: 0,0:00:02.83,0:00:03.68,Sub,,0,0,0,,{\pos(288,830)}estás haciendo {\c&H2CD2F7&}mal.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.70,0:00:04.39,Sub,,0,0,0,,{\pos(288,830)}Hoy Copito, de
+Dialogue: 0,0:00:04.39,0:00:05.30,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}cuatro{\c&HFFFFFF&} {\c&H2CD2F7&}meses,{\c&HFFFFFF&} viene
+Dialogue: 0,0:00:05.30,0:00:05.91,Sub,,0,0,0,,{\pos(288,830)}a su primera
+Dialogue: 0,0:00:05.91,0:00:06.60,Sub,,0,0,0,,{\pos(288,830)}visita… y casi
+Dialogue: 0,0:00:06.60,0:00:07.17,Sub,,0,0,0,,{\pos(288,830)}me deja sin
+Dialogue: 0,0:00:07.17,0:00:07.98,Sub,,0,0,0,,{\pos(288,830)}{\c&H2CD2F7&}dedo.{\c&HFFFFFF&}
 Dialogue: 0,0:00:08.00,0:00:08.68,Sub,,0,0,0,,{\pos(288,830)}Su familia hizo
 Dialogue: 0,0:00:08.68,0:00:09.16,Sub,,0,0,0,,{\pos(288,830)}más de una
 Dialogue: 0,0:00:09.16,0:00:09.76,Sub,,0,0,0,,{\pos(288,830)}hora de coche
@@ -67,7 +68,7 @@ Dialogue: 0,0:00:40.08,0:00:40.73,Sub,,0,0,0,,{\pos(288,830)}Me llegan perros
 Dialogue: 0,0:00:40.73,0:00:41.41,Sub,,0,0,0,,{\pos(288,830)}adultos que nunca
 Dialogue: 0,0:00:41.41,0:00:41.98,Sub,,0,0,0,,{\pos(288,830)}han pisado una
 Dialogue: 0,0:00:41.98,0:00:42.81,Sub,,0,0,0,,{\pos(288,830)}peluquería, con {\c&H2CD2F7&}nudos{\c&HFFFFFF&}
-Dialogue: 0,0:00:42.81,0:00:43.38,Sub,,0,0,0,,{\pos(288,830)}y mucho {\c&H2CD2F7&}miedo.{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.81,0:00:43.38,Sub,,0,0,0,,{\pos(288,830)}y mucho miedo.
 Dialogue: 0,0:00:43.38,0:00:43.74,Sub,,0,0,0,,{\pos(288,830)}Y eso se
 Dialogue: 0,0:00:43.74,0:00:44.38,Sub,,0,0,0,,{\pos(288,830)}podía evitar.
 Dialogue: 0,0:00:44.40,0:00:44.85,Sub,,0,0,0,,{\pos(288,830)}Así que por

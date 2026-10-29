@@ -14,7 +14,9 @@ Le texte est **original** (pas une traduction). `[NOMBRE]` = le nom de ton chien
 
 | Temps | Plan à filmer | Voix off (español) |
 |---|---|---|
-| 0:00 | Gros plan sur la tête du chiot | Un cachorro de cuatro meses que parece una nube con patas. Hoy [NOMBRE] viene a su primera visita de adaptación, y ya os aviso: me ha robado el corazón… y casi un dedo. |
+| 0:00 | ACCROCHE — fond jaune, gros titre rouge « ¿ESPERAR 1 AÑO A LA PELUQUERÍA? », zoom sur le chiot surpris + whoosh | Si esperas a que tu cachorro cumpla un año para llevarlo a la peluquería… |
+| 0:01.75 | Calendrier « 1 AÑO » barré d'une croix rouge, secousse, buzzer — titre « ¡ERROR! LO ESTÁS HACIENDO MAL » | …lo estás haciendo mal. |
+| 0:03.7 | Gros plan chiot heureux, badge « 4 MESES », cœurs | Hoy Copito, de cuatro meses, viene a su primera visita… y casi me deja sin dedo. |
 | 0:08 | Arrivée, chiot sur la table | Su familia hizo más de una hora de coche para venir, así que hoy toca sesión completa: baño, secado, cepillado y mimos. |
 | 0:13 | Chiot dans la baignoire | Lo que más me gusta de estas primeras visitas es cuando, semanas después, me escribís que vuestro perro ya no le tiene miedo al secador. |
 | 0:19 | Premier arrosage doux | Empezamos con un baño suave. Con un cachorro tan pequeño, lo importante no es dejarlo perfecto, sino que asocie el agua con algo tranquilo. |
