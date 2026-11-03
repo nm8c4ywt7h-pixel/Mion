@@ -110,7 +110,7 @@ Untertitel: Wort für Wort, Schlüsselwort in Gelb. Stimme: ruhig, leicht ironis
 ---
 
 ## Skript 5: Warum wackelt die Taube mit dem Kopf?
-*Inspiriert von: lacienciadetras.ia, „palomas“ (2,6 M, die Video mit den meisten Abonnenten)*
+*Inspiriert von: lacienciadetras.ia, „palomas“ (2,6 M, das Video mit den meisten neuen Abonnenten)*
 
 **Text auf dem Bildschirm:** Der Kopf der Taube geht NIE nach hinten ❓
 
