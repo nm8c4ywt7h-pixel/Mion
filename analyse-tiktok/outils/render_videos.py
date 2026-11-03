@@ -5,8 +5,8 @@
 - Visuels : fond pastel, émojis animés, carte « question » en haut, compte à rebours,
   tampon AUFLÖSUNG, mascotte Knödel dessinée en code
 
-Usage : python3 render_videos.py [id ...]     (ex. R1 S3 ; sans argument = les 20 vidéos)
-Sortie : ../videos/
+Usage : python3 render_videos.py [--lang es|de] [id ...]   (ex. R1 S3 ; sans id = les 20 vidéos)
+Langue par défaut : espagnol. Sortie : ../videos/<langue>/
 """
 import asyncio
 import math
@@ -22,15 +22,41 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 BASE = Path(__file__).resolve().parent.parent
+LANGS = {
+    "es": {
+        "files": (("05_GUIONES_ES.md", "S"), ("06_ACERTIJOS_ES.md", "R")),
+        "heading": r"^## (?:Guion|Acertijo) (\d+): (.+)",
+        "hook": r"^\*\*Texto:\*\* (.+)",
+        "countdown": ["Cinco", "Cuatro", "Tres", "Dos", "Uno"],
+        "answer": r"^(RESPUESTA|Respuesta)",
+        "voice": "es-MX-JorgeNeural",
+        "rate": "+4%",
+        "brand": "ACERTIJO ANIMAL",
+        "stamp": "RESPUESTA",
+        "write": "¡Escribe tu respuesta!",
+        "names": ("explicacion", "acertijo"),
+    },
+    "de": {
+        "files": (("02_SKRIPTE_DE.md", "S"), ("03_ECHTE_RAETSEL_DE.md", "R")),
+        "heading": r"^## (?:Skript|Rätsel) (\d+): (.+)",
+        "hook": r"^\*\*Text(?: auf dem Bildschirm)?:\*\* (.+)",
+        "countdown": ["Fünf", "Vier", "Drei", "Zwei", "Eins"],
+        "answer": r"^(AUFLÖSUNG|Auflösung)",
+        "voice": "de-DE-ConradNeural",
+        "rate": "+6%",
+        "brand": "TIER-RÄTSEL",
+        "stamp": "AUFLÖSUNG",
+        "write": "Schreib deine Antwort!",
+        "names": ("erklaer", "raetsel"),
+    },
+}
+L = dict(LANGS["es"])
 OUT = BASE / "videos"
 W, H, FPS = 1080, 1920, 30
 SR = 24000
-VOICE = "de-DE-ConradNeural"
-RATE = "+6%"
 FONT = "/usr/share/fonts/opentype/inter/Inter-Black.otf"
 EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
 PASTELS = ["#FFE8C7", "#D9F2E6", "#E6E0FF", "#FFF4B8", "#FFDCE5", "#D6ECFF", "#F0E6D8"]
-COUNTDOWN_RE = re.compile(r"Fünf\. Vier\. Drei\. Zwei\. Eins\.")
 
 # Émojis par paragraphe de voix off (même ordre que dans les scripts)
 SCENES = {
@@ -62,17 +88,17 @@ EMOJI_RE = re.compile(r"[\U0001F000-\U0001FFFF☀-➿←-⇿⬀-⯿️⃣]")
 # ---------------------------------------------------------------- parsing
 def parse():
     vids = {}
-    for fname, letter in (("02_SKRIPTE_DE.md", "S"), ("03_ECHTE_RAETSEL_DE.md", "R")):
+    for fname, letter in L["files"]:
         cur = None
         for line in (BASE / fname).read_text(encoding="utf-8").splitlines():
-            m = re.match(r"^## (?:Skript|Rätsel) (\d+): (.+)", line)
+            m = re.match(L["heading"], line)
             if m:
                 cur = {"id": f"{letter}{m.group(1)}", "title": m.group(2), "hook": "", "paras": []}
                 vids[cur["id"]] = cur
                 continue
             if not cur:
                 continue
-            m = re.match(r"^\*\*Text(?: auf dem Bildschirm)?:\*\* (.+)", line)
+            m = re.match(L["hook"], line)
             if m:
                 cur["hook"] = EMOJI_RE.sub("", m.group(1)).strip()
             elif line.startswith(">") and line[1:].strip():
@@ -83,15 +109,16 @@ def parse():
 def segments(v):
     """Découpe en segments {kind, text, emojis}. kind: talk | countdown | answer."""
     segs, scenes = [], SCENES[v["id"]]
+    cd_re = re.compile(r"\s*".join(re.escape(w + ".") for w in L["countdown"]))
     for i, p in enumerate(v["paras"]):
         em = scenes[i] if i < len(scenes) else None
-        if COUNTDOWN_RE.search(p):
-            pre = COUNTDOWN_RE.split(p)[0].strip()
+        if cd_re.search(p):
+            pre = cd_re.split(p)[0].strip()
             if pre:
                 segs.append({"kind": "talk", "text": pre, "emojis": "⏸️🤔"})
             segs.append({"kind": "countdown", "text": "", "emojis": None})
             continue
-        kind = "answer" if re.match(r"^(AUFLÖSUNG|Auflösung)", p) else "talk"
+        kind = "answer" if re.match(L["answer"], p) else "talk"
         segs.append({"kind": kind, "text": p, "emojis": em})
     return segs
 
@@ -100,8 +127,7 @@ def segments(v):
 def tts_text(t):
     t = EMOJI_RE.sub("", t)
     t = t.replace("„", "").replace("“", "").replace("…", ",")
-    t = re.sub(r"\bAUFLÖSUNG\b", "Auflösung", t)
-    t = re.sub(r"\bMICH\b", "mich", t).replace("KNÖDELS", "Knödels").replace("GANZE", "ganze")
+    t = re.sub(r"\b[A-ZÄÖÜÁÉÍÓÚÑ]{2,}\b", lambda m: m.group(0).capitalize() if m.start() == 0 else m.group(0).lower(), t)
     return re.sub(r"\s+", " ", t).strip()
 
 
@@ -109,7 +135,7 @@ async def _tts(text, mp3):
     import certifi
     certifi.where = lambda: "/root/.ccr/ca-bundle.crt"  # CA du proxy de ce conteneur
     import edge_tts
-    c = edge_tts.Communicate(text, VOICE, rate=RATE, boundary="WordBoundary")
+    c = edge_tts.Communicate(text, L["voice"], rate=L["rate"], boundary="WordBoundary")
     words = []
     with open(mp3, "wb") as f:
         async for ch in c.stream():
@@ -158,7 +184,7 @@ def align(words, text):
     for w in words:
         for k in range(p, min(p + 4, len(toks))):
             if norm(toks[k]) == norm(w[2]):
-                w[2] = toks[k].replace("AUFLÖSUNG", "Auflösung")
+                w[2] = toks[k].replace("AUFLÖSUNG", "Auflösung").replace("RESPUESTA", "Respuesta")
                 p = k + 1
                 break
     return words
@@ -171,7 +197,7 @@ def build_audio(segs, tmp):
         start = t
         if s["kind"] == "countdown":
             words = []
-            for n, word in enumerate(["Fünf", "Vier", "Drei", "Zwei", "Eins"]):
+            for n, word in enumerate(L["countdown"]):
                 a, w = tts(word + ".", tmp, f"{i}_{n}")
                 chunk = np.zeros(int(SR * 1.0), np.float32)
                 tk = tick()
@@ -321,7 +347,7 @@ def knoedel(size=150):
 def header(vid, hook):
     im = Image.new("RGBA", (W, 560), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
-    label = "TIER-RÄTSEL"
+    label = L["brand"]
     f = font(40)
     tw = d.textlength(label, font=f)
     x0 = (W - tw - 150) / 2
@@ -379,7 +405,7 @@ def stamp():
     im = Image.new("RGBA", (820, 220), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
     d.rounded_rectangle((10, 10, 810, 210), 26, outline=(220, 30, 40, 255), width=14)
-    d.text((410, 112), "AUFLÖSUNG", font=f, fill=(220, 30, 40, 255), anchor="mm")
+    d.text((410, 112), L["stamp"], font=f, fill=(220, 30, 40, 255), anchor="mm")
     return im.rotate(-8, expand=True, resample=Image.BICUBIC)
 
 
@@ -407,7 +433,7 @@ def render_frame(t, v, segs, timeline):
         f = font(int(300 * sc))
         d.text((W / 2, cy), str(5 - n), font=f, fill=(40, 30, 50), anchor="mm")
         f2 = font(54)
-        d.text((W / 2, cy + r + 90), "Schreib deine Antwort!", font=f2, fill=(40, 30, 50), anchor="mm")
+        d.text((W / 2, cy + r + 90), L["write"], font=f2, fill=(40, 30, 50), anchor="mm")
     elif s["emojis"]:
         layer = emoji_layer(s["emojis"])
         pop = ease_out_back(min(1, lt / 0.35)) if lt < 0.35 else 1
@@ -454,12 +480,13 @@ def render_frame(t, v, segs, timeline):
 def render(vid, vids):
     v = vids[vid]
     segs = segments(v)
-    OUT.mkdir(exist_ok=True)
-    name = f"{'erklaer' if vid[0] == 'S' else 'raetsel'}_{int(vid[1:]):02}"
+    out_dir = OUT / L["code"]
+    out_dir.mkdir(parents=True, exist_ok=True)
+    name = f"{L['names'][0] if vid[0] == 'S' else L['names'][1]}_{int(vid[1:]):02}"
     with tempfile.TemporaryDirectory() as td:
         tmp = Path(td)
         wav, timeline, total = build_audio(segs, tmp)
-        out = OUT / f"{name}.mp4"
+        out = out_dir / f"{name}.mp4"
         cmd = ["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                "-i", "-", "-i", str(wav), "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
                "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-shortest", "-movflags", "+faststart", str(out)]
@@ -475,7 +502,7 @@ def render(vid, vids):
         p.stdin.close()
         p.wait()
         # sous-titres .srt exacts (temps réels de la voix)
-        srt = OUT / f"{name}.srt"
+        srt = out_dir / f"{name}.srt"
         n = 0
         with srt.open("w", encoding="utf-8") as f:
             for s, (a, _) in zip(segs, timeline):
@@ -487,7 +514,13 @@ def render(vid, vids):
 
 
 if __name__ == "__main__":
+    args = sys.argv[1:]
+    code = "es"
+    if args[:1] == ["--lang"]:
+        code, args = args[1], args[2:]
+    L.clear()
+    L.update(LANGS[code], code=code)
     vids = parse()
-    ids = sys.argv[1:] or list(SCENES)
+    ids = args or list(SCENES)
     for vid in ids:
         render(vid, vids)
