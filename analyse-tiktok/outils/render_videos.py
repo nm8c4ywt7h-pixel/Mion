@@ -148,13 +148,15 @@ async def _tts(text, mp3):
 
 def tts(text, tmp, tag):
     mp3 = tmp / f"{tag}.mp3"
-    for attempt in range(4):
+    import time
+    for attempt in range(6):
         try:
             words = asyncio.run(_tts(text, mp3))
             break
         except Exception:
-            if attempt == 3:
+            if attempt == 5:
                 raise
+            time.sleep(2 ** attempt)
     pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", str(mp3), "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"],
                          capture_output=True, check=True).stdout
     return np.frombuffer(pcm, dtype=np.int16).astype(np.float32) / 32768, words
@@ -415,10 +417,10 @@ def ease_out_back(x):
 
 
 def render_frame(t, v, segs, timeline):
-    si = next((k for k, (a, b) in enumerate(timeline) if a <= t < b), len(segs) - 1)
+    si = 0 if t < timeline[0][0] else next((k for k, (a, b) in enumerate(timeline) if a <= t < b), len(segs) - 1)
     s = segs[si]
     a, b = timeline[si]
-    lt = t - a
+    lt = max(0.0, t - a)
     frame = background(PASTELS[si % len(PASTELS)]).copy()
     frame.alpha_composite(header(v["id"], v["hook"]), (0, 0))
     cy = 1020
@@ -436,7 +438,7 @@ def render_frame(t, v, segs, timeline):
         d.text((W / 2, cy + r + 90), L["write"], font=f2, fill=(40, 30, 50), anchor="mm")
     elif s["emojis"]:
         layer = emoji_layer(s["emojis"])
-        pop = ease_out_back(min(1, lt / 0.35)) if lt < 0.35 else 1
+        pop = ease_out_back(min(1, lt / 0.35)) if (lt < 0.35 and si > 0) else 1  # 1er plan plein dès l'image 0 (miniature)
         zoom = 1 + 0.06 * min(1, lt / max(1, b - a))
         bob = math.sin(t * 2.2) * 14
         sc = max(0.05, pop * zoom)
