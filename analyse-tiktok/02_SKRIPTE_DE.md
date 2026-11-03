@@ -264,4 +264,4 @@ Untertitel: Wort für Wort, Schlüsselwort in Gelb. Stimme: ruhig, leicht ironis
 - „Sieht deine Katze im Dunkeln wirklich alles?“ (toutsavoiranimal, 400 k, 4,6 % geteilt), ohne den „intimen“ Teil
 - „Was deine Katze bei Hitze braucht“ (instinctdeclic0, 1,1 M): saisonal, im Sommer posten
 
-> Hinweis: Die Fakten in Skript 4–8 beruhen auf echten, bekannten Studien (Laufband-Versuch mit Tauben; Namenserkennung bei Katzen, Japan 2019; „Gifted Word Learner“-Hunde, Ungarn; Stressgeruch bei Hunden, 2022; Reaktion von Hunden auf Weinen, 2012). Zahlen bewusst gerundet und vorsichtig formuliert, um keine falschen Angaben zu machen.
+**Hinweis:** Die Fakten in Skript 4–8 beruhen auf echten, bekannten Studien (Laufband-Versuch mit Tauben; Namenserkennung bei Katzen, Japan 2019; „Gifted Word Learner“-Hunde, Ungarn; Stressgeruch bei Hunden, 2022; Reaktion von Hunden auf Weinen, 2012). Zahlen bewusst gerundet und vorsichtig formuliert, um keine falschen Angaben zu machen.
