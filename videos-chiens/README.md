@@ -7,7 +7,7 @@ pensé pour un compte qui a déjà une audience (134k+) et veut lancer une nouve
 - [`analyse-ville-abonnes.md`](analyse-ville-abonnes.md) + [`serie-ville-chiens/`](serie-ville-chiens/) : **⭐ la série retenue, « Patapouf-Ville »** : une ville qui n'a aucun chien. 1 abonné = 1 chiot, 1 nom de chiot en commentaire = 1 maison à son nom. Format court de 27 s, sur le modèle de « La ville des abonnés »
 - [`analyse-fc-asche.md`](analyse-fc-asche.md) : l'analyse détaillée de la vidéo de référence (structure seconde par seconde, angle, fabrication, chiffres)
 - [`serie-ferme/`](serie-ferme/) : version précédente, « La Ferme Patapouf » : 1 abonné = 1 chiot, le commentaire le plus liké adopte son chiot et décide de la construction. Scripts des jours 1 et 2, plan jusqu'au jour 12
-- [`serie-refuge/`](serie-refuge/) : première version, « Le Refuge Patapouf » (1 abonné = 1 bénévole), sur le même principe (1 abonné = 1 bénévole, le top commentaire décide), avec le script complet du Jour 1
+- [`serie-refuge/`](serie-refuge/) : première version, « Le Refuge Patapouf » (1 abonné = 1 bénévole, le top commentaire décide)
 
 ## Kit général (idées de formats « chiens » classiques, en complément)
 
