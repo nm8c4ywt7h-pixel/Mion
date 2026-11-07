@@ -5,7 +5,8 @@ pensé pour un compte qui a déjà une audience (134k+) et veut lancer une nouve
 
 ## ⭐ Commencer ici
 - [`analyse-fc-asche.md`](analyse-fc-asche.md) : l'analyse détaillée de la vidéo de référence (structure seconde par seconde, angle, fabrication, chiffres)
-- [`serie-refuge/`](serie-refuge/) : **notre série chiens « Le Refuge Patapouf »**, sur le même principe (1 abonné = 1 bénévole, le top commentaire décide), avec le script complet du Jour 1
+- [`serie-ferme/`](serie-ferme/) : **⭐ la série retenue, « La Ferme Patapouf »** : 1 abonné = 1 chiot, le commentaire le plus liké adopte son chiot et décide de la construction. Scripts des jours 1 et 2, plan jusqu'au jour 12
+- [`serie-refuge/`](serie-refuge/) : première version, « Le Refuge Patapouf » (1 abonné = 1 bénévole), sur le même principe (1 abonné = 1 bénévole, le top commentaire décide), avec le script complet du Jour 1
 
 ## Kit général (idées de formats « chiens » classiques, en complément)
 
