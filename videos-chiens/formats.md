@@ -1,8 +1,6 @@
 # 6 formats viraux pour chiens & chiots
 
-> Je n'ai pas pu voir la vidéo de référence (TikTok bloque la lecture automatique).
-> Ces formats couvrent les styles qui marchent le plus dans la niche animaux. Indique-moi lequel
-> ressemble à ta vidéo et j'adapterai tout le kit à ce style précis.
+> Formats « chiens » classiques, en complément. La série principale, construite sur le modèle de la vidéo de référence, est dans [`serie-refuge/`](serie-refuge/).
 
 ---
 

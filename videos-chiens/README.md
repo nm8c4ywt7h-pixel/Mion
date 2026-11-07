@@ -3,6 +3,12 @@
 Kit prêt à l'emploi pour produire des vidéos courtes (TikTok / Reels / Shorts) sur les chiens et chiots,
 pensé pour un compte qui a déjà une audience (134k+) et veut lancer une nouvelle série sans perdre ses abonnés.
 
+## ⭐ Commencer ici
+- [`analyse-fc-asche.md`](analyse-fc-asche.md) : l'analyse détaillée de la vidéo de référence (structure seconde par seconde, angle, fabrication, chiffres)
+- [`serie-refuge/`](serie-refuge/) : **notre série chiens « Le Refuge Patapouf »**, sur le même principe (1 abonné = 1 bénévole, le top commentaire décide), avec le script complet du Jour 1
+
+## Kit général (idées de formats « chiens » classiques, en complément)
+
 | Fichier | Contenu |
 |---|---|
 | [`formats.md`](formats.md) | 6 formats viraux adaptés aux chiens, avec structure seconde par seconde |
