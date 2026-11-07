@@ -1,0 +1,120 @@
+{
+ "voice": "fr-FR-RemyMultilingualNeural",
+ "rate": "+6%",
+ "lines": [
+  {
+   "say": "Cette ville n'a aucun chien.",
+   "top": [
+    "CETTE VILLE N'A",
+    "AUCUN CHIEN"
+   ],
+   "subs": [
+    "Cette ville n'a",
+    "aucun *chien*."
+   ]
+  },
+  {
+   "say": "Lui, c'est le maire.",
+   "top": [
+    "LUI, C'EST",
+    "LE MAIRE"
+   ],
+   "subs": [
+    "Lui, c'est",
+    "le *maire*."
+   ]
+  },
+  {
+   "say": "Mais maintenant, il t'a toi !",
+   "top": [
+    "MAIS MAINTENANT",
+    "IL T'A TOI"
+   ],
+   "subs": [
+    "Mais maintenant,",
+    "il t'a *toi* !"
+   ]
+  },
+  {
+   "say": "Chaque abonné fait arriver un chiot.",
+   "top": [
+    "1 ABONNÉ",
+    "= 1 CHIOT"
+   ],
+   "subs": [
+    "Chaque *abonné*",
+    "fait arriver",
+    "un *chiot*."
+   ]
+  },
+  {
+   "say": "Donne un nom de chiot en commentaire : il aura sa maison ici !",
+   "top": [
+    "1 NOM EN COMMENTAIRE",
+    "= 1 MAISON À SON NOM"
+   ],
+   "subs": [
+    "Donne un *nom*",
+    "de chiot",
+    "en *commentaire* :",
+    "il aura",
+    "sa *maison* ici !"
+   ]
+  },
+  {
+   "say": "On construit quoi ? A : un parc, B : une clinique, C : une boulangerie !",
+   "top": [
+    "ON CONSTRUIT QUOI",
+    "EN PREMIER ?"
+   ],
+   "subs": [
+    "On construit *quoi* ?",
+    "A, un *parc*.",
+    "B, une *clinique*.",
+    "C, une *boulangerie*."
+   ]
+  },
+  {
+   "say": "Commente A, B ou C, et abonne-toi !",
+   "top": [
+    "COMMENTE A, B OU C",
+    "ET ABONNE-TOI !"
+   ],
+   "subs": [
+    "Commente *A, B ou C*,",
+    "et *abonne-toi* !"
+   ]
+  }
+ ],
+ "labels": [
+  [
+   "Biscuit",
+   "@lea_29"
+  ],
+  [
+   "Neige",
+   "@tom.rx"
+  ],
+  [
+   "Choco",
+   "@ines_mtl"
+  ],
+  [
+   "Rocky",
+   "@noah_ff"
+  ],
+  [
+   "Princesse",
+   "@chloe.v"
+  ]
+ ],
+ "votes": [
+  "PARC",
+  "CLINIQUE",
+  "BOULANGERIE"
+ ],
+ "subscribe": [
+  "S'ABONNER",
+  "ABONNÉ"
+ ]
+}
