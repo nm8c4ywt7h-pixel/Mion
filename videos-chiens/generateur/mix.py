@@ -26,7 +26,13 @@ while t<tl["total"]:
     b+=1; t=b*beat/2
 # no music at very start (sad), fade in after "il t'a toi"
 env=np.ones(N); s2=int(tl["segs"][2]["start"]*SR); env[:s2]=0.35
-out+=music*env*0.55
+duck=np.ones(N)
+for sg in tl["segs"]:
+    a=int(sg["start"]*SR); b=int(sg["end"]*SR); duck[a:b]=0.55
+duck=np.convolve(duck,np.ones(2205)/2205,'same')
+for k in ev.get("dream",[]):
+    pass
+out+=music*env*duck*0.6
 def popsnd():
     t=np.arange(int(0.12*SR))/SR; f=600+2200*t/0.12
     return 0.35*np.sin(2*np.pi*np.cumsum(f)/SR)*np.exp(-t*30)
@@ -36,6 +42,21 @@ def clicksnd():
 def whoosh():
     t=np.arange(int(0.25*SR))/SR; n=np.random.RandomState(1).randn(len(t))
     n=np.convolve(n,np.ones(30)/30,'same'); return 0.25*n*np.sin(np.pi*t/0.25)
+def coin():
+    t=np.arange(int(0.6*SR))/SR
+    return 0.25*(np.sin(2*np.pi*1975*t)*(t<0.08)+np.sin(2*np.pi*2637*t)*(t>=0.08))*np.exp(-t*6)
+def sadsnd():
+    t=np.arange(int(1.0*SR))/SR; f=440*np.power(0.5,t/1.0*0.9)
+    return 0.22*np.sin(2*np.pi*np.cumsum(f)/SR)*(1+0.3*np.sin(2*np.pi*6*t))*np.exp(-t*1.5)
+def shimmer():
+    out=np.zeros(int(1.6*SR))
+    for i,f in enumerate([1046,1318,1568,2093,2637,3136]):
+        st=int(i*0.12*SR); t=np.arange(len(out)-st)/SR; out[st:]+=0.08*np.sin(2*np.pi*f*t)*np.exp(-t*3)
+    return out
+for x in ev.get("coins",[]):
+    for k in range(5): add(coin(),x+k*0.22,0.8)
+for x in ev.get("sad",[]): add(sadsnd(),x)
+for x in ev.get("dream",[]): add(shimmer(),x)
 for x in ev["pops"]: add(popsnd(),x)
 for x in ev["click"]: add(clicksnd(),x)
 for x in ev["whoosh"][1:]: add(whoosh(),x-0.12,0.6)

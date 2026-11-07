@@ -28,3 +28,14 @@ Pour une autre langue, copier `script_fr.json` en `script_es.json`, puis traduir
 (ex. `es-ES-AlvaroNeural`).
 
 `tts.py` force le certificat du proxy de l'environnement cloud. En local, supprimer la ligne `certifi.where = …`.
+
+## Version complète « Villa Patitas » (Día 1, espagnol, ≈ 47 s)
+Elle utilise la scène `scene2.html` : 14 plans calqués sur le Tag 1 du FC Asche.
+```
+python3 make_audio.py es
+SCENE=scene2.html node render.js es 30
+python3 mix.py es
+ffmpeg -framerate 30 -i frames_es/%04d.jpg -i mix_es.wav -c:v libx264 -crf 18 -pix_fmt yuv420p -c:a aac -shortest villa_patitas_es.mp4
+```
+Pour la décliner en français ou dans une autre langue : copier `script_es.json` (phrases, sous-titres et textes
+de l'interface dans `ui`), changer la voix, puis relancer les mêmes commandes.

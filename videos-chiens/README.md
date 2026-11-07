@@ -4,6 +4,7 @@ Kit prêt à l'emploi pour produire des vidéos courtes (TikTok / Reels / Shorts
 pensé pour un compte qui a déjà une audience (134k+) et veut lancer une nouvelle série sans perdre ses abonnés.
 
 ## ⭐ Commencer ici
+- 🎬 **[`rendus/villa_patitas_dia1_es.mp4`](rendus/villa_patitas_dia1_es.mp4) : la vidéo complète en espagnol (47 s)**. Correspondance plan par plan avec la référence : [`serie-ville-chiens/version-espagnole-dia-1.md`](serie-ville-chiens/version-espagnole-dia-1.md)
 - [`analyse-ville-abonnes.md`](analyse-ville-abonnes.md) + [`serie-ville-chiens/`](serie-ville-chiens/) : **⭐ la série retenue, « Patapouf-Ville »** : une ville qui n'a aucun chien. 1 abonné = 1 chiot, 1 nom de chiot en commentaire = 1 maison à son nom. Format court de 27 s, sur le modèle de « La ville des abonnés »
 - [`analyse-fc-asche.md`](analyse-fc-asche.md) : l'analyse détaillée de la vidéo de référence (structure seconde par seconde, angle, fabrication, chiffres)
 - [`serie-ferme/`](serie-ferme/) : version précédente, « La Ferme Patapouf » : 1 abonné = 1 chiot, le commentaire le plus liké adopte son chiot et décide de la construction. Scripts des jours 1 et 2, plan jusqu'au jour 12

@@ -6,7 +6,7 @@ for i,l in enumerate(S["lines"]):
     subprocess.run(["python3","tts.py",S["voice"],l["say"],f,S["rate"]],check=True)
     # trim leading/trailing silence
     w=f"a_{lang}_{i}.wav"
-    subprocess.run(["ffmpeg","-v","error","-y","-i",f,"-af","silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse","-ar","44100","-ac","1",w],check=True)
+    subprocess.run(["ffmpeg","-v","error","-y","-i",f,"-af","silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=stop_periods=-1:stop_duration=0.22:stop_threshold=-45dB:stop_silence=0.16","-ar","44100","-ac","1",w],check=True)
     d=float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",w]))
     segs.append({"start":round(t,3),"end":round(t+d,3),"file":w}); t+=d+gap
 total=round(t+0.6,2)

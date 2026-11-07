@@ -1,0 +1,297 @@
+{
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+8%",
+ "lines": [
+  {
+   "id": "intro",
+   "say": "Este pueblo no tiene ni un solo perro.",
+   "top": [
+    "",
+    ""
+   ],
+   "subs": [
+    "Este pueblo",
+    "no tiene",
+    "ni un solo *perro*."
+   ]
+  },
+  {
+   "id": "rule",
+   "say": "Cada nuevo seguidor trae un cachorro, que vivirá aquí.",
+   "top": [
+    "1 SEGUIDOR",
+    "= 1 CACHORRO"
+   ],
+   "subs": [
+    "Cada nuevo *seguidor*",
+    "trae un *cachorro*,",
+    "que vivirá *aquí*."
+   ]
+  },
+  {
+   "id": "sign",
+   "say": "¡Bienvenidos a Villa Patitas!",
+   "top": [
+    "BIENVENIDOS A",
+    "VILLA PATITAS"
+   ],
+   "subs": [
+    "¡Bienvenidos a",
+    "*Villa Patitas*!"
+   ]
+  },
+  {
+   "id": "tour",
+   "say": "Un pueblo diminuto, calles vacías, y una sola caseta.",
+   "top": [
+    "",
+    ""
+   ],
+   "subs": [
+    "Un pueblo *diminuto*,",
+    "calles *vacías*,",
+    "y una sola *caseta*."
+   ],
+   "tags": [
+    "PUEBLO DIMINUTO",
+    "CALLES VACÍAS",
+    "1 CASETA"
+   ]
+  },
+  {
+   "id": "zero",
+   "say": "Perros: cero. Solo el alcalde.",
+   "top": [
+    "",
+    ""
+   ],
+   "subs": [
+    "Perros:",
+    "~cero~.",
+    "Solo el *alcalde*."
+   ]
+  },
+  {
+   "id": "teamwide",
+   "say": "Y este es el equipo del pueblo:",
+   "top": [
+    "EL EQUIPO",
+    "DEL PUEBLO"
+   ],
+   "subs": [
+    "Y este es",
+    "el *equipo* del pueblo:"
+   ]
+  },
+  {
+   "id": "team",
+   "say": "El abuelo Paco, de noventa años, Lola, la cartera, que les tiene miedo a los perros, y doña Carmen, con sus cuarenta gatos.",
+   "top": [
+    "",
+    ""
+   ],
+   "subs": [
+    "El abuelo *Paco*,",
+    "de 90 años.",
+    "*Lola*, la cartera,",
+    "que les tiene ~miedo~",
+    "a los perros.",
+    "Y doña *Carmen*,",
+    "con sus *40 gatos*."
+   ],
+   "chunkShot": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2
+   ]
+  },
+  {
+   "id": "dream",
+   "say": "Nuestro objetivo: la ciudad de perros más grande del mundo.",
+   "top": [
+    "NUESTRO OBJETIVO:",
+    "¡N.º 1 DEL MUNDO!"
+   ],
+   "subs": [
+    "Nuestro *objetivo*:",
+    "la ciudad de perros",
+    "más *grande* del mundo."
+   ]
+  },
+  {
+   "id": "tomorrow",
+   "say": "Y mañana llegan los primeros cachorros.",
+   "top": [
+    "MAÑANA:",
+    "¡PRIMEROS CACHORROS!"
+   ],
+   "subs": [
+    "Y *mañana* llegan",
+    "los primeros *cachorros*."
+   ]
+  },
+  {
+   "id": "empty",
+   "say": "Pero mira las casitas: vacías. ¡Necesitamos tu ayuda!",
+   "top": [
+    "CASITAS:",
+    "0 CACHORROS"
+   ],
+   "topColor": "#ff4040",
+   "subs": [
+    "Pero mira",
+    "las *casitas*:",
+    "~vacías~.",
+    "¡Necesitamos",
+    "tu *ayuda*!"
+   ]
+  },
+  {
+   "id": "claim",
+   "say": "Síguenos y escribe en comentarios el nombre de tu cachorro: mañana tendrá su casita aquí.",
+   "top": [
+    "ESCRIBE EL NOMBRE",
+    "DE TU CACHORRO"
+   ],
+   "subs": [
+    "*Síguenos*",
+    "y escribe",
+    "en *comentarios*",
+    "el nombre",
+    "de tu *cachorro*:",
+    "mañana tendrá",
+    "su *casita* aquí."
+   ]
+  },
+  {
+   "id": "decide",
+   "say": "Desde hoy, decides tú.",
+   "top": [
+    "DESDE HOY",
+    "DECIDES TÚ"
+   ],
+   "subs": [
+    "Desde hoy,",
+    "decides *tú*."
+   ]
+  },
+  {
+   "id": "vote",
+   "say": "La hucha: quinientos euros. ¿Qué construimos? ¿Un parque, una clínica, o algo totalmente distinto?",
+   "top": [
+    "LA HUCHA",
+    "DEL PUEBLO"
+   ],
+   "subs": [
+    "La *hucha*:",
+    "¡*500 euros*!",
+    "¿Qué *construimos*?",
+    "¿Un *parque*,",
+    "una *clínica*,",
+    "o algo *totalmente distinto*?"
+   ],
+   "chunkTop": [
+    null,
+    null,
+    [
+     "¿QUÉ CONSTRUIMOS?",
+     "A, B O C"
+    ],
+    [
+     "¿QUÉ CONSTRUIMOS?",
+     "A, B O C"
+    ],
+    [
+     "¿QUÉ CONSTRUIMOS?",
+     "A, B O C"
+    ],
+    [
+     "¿QUÉ CONSTRUIMOS?",
+     "A, B O C"
+    ]
+   ]
+  },
+  {
+   "id": "final",
+   "say": "El comentario con más likes decide.",
+   "top": [
+    "EL COMENTARIO CON",
+    "MÁS LIKES DECIDE"
+   ],
+   "subs": [
+    "El comentario",
+    "con más *likes*",
+    "*decide*."
+   ]
+  }
+ ],
+ "ui": {
+  "day": "DÍA 1",
+  "founded": "PUEBLO FUNDADO",
+  "sign": [
+   "VILLA",
+   "PATITAS"
+  ],
+  "follow": "SEGUIR",
+  "following": "SIGUIENDO",
+  "rule": "1 SEGUIDOR = 1 CACHORRO",
+  "dogs": "PERROS",
+  "newFollowers": "+0 NUEVOS",
+  "team": [
+   [
+    "1",
+    "ABUELO PACO",
+    "90 años · duerme en el banco"
+   ],
+   [
+    "2",
+    "LOLA",
+    "Cartera · miedo a los perros"
+   ],
+   [
+    "3",
+    "DOÑA CARMEN",
+    "40 gatos · ningún perro"
+   ]
+  ],
+  "og": "CACHORRO OG",
+  "ogSub": "Casa N.º 001",
+  "yourHouse": "TU CASA",
+  "piggy": "HUCHA",
+  "votes": [
+   "PARQUE",
+   "CLÍNICA",
+   "¿ALGO DISTINTO?"
+  ],
+  "commentUser": "tu_nombre",
+  "commentTag": "Top comentario",
+  "commentText": "¿Tu idea? 🐶",
+  "decision": "DECISIÓN N.º 1"
+ },
+ "labels": [
+  [
+   "Canela",
+   "@sofi_23"
+  ],
+  [
+   "Toby",
+   "@mateo.rx"
+  ],
+  [
+   "Luna",
+   "@vale_mx"
+  ],
+  [
+   "Rocky",
+   "@diego_ff"
+  ],
+  [
+   "Nala",
+   "@cami.v"
+  ]
+ ]
+}
