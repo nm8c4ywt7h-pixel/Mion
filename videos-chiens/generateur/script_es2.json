@@ -1,0 +1,174 @@
+{
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+6%",
+ "lines": [
+  {
+   "id": "hook",
+   "say": "Este cachorro es el único perro de todo el pueblo.",
+   "top": [
+    "EL ÚNICO PERRO",
+    "DEL PUEBLO"
+   ],
+   "subs": [
+    "Este *cachorro*",
+    "es el único perro",
+    "de todo el *pueblo*."
+   ]
+  },
+  {
+   "id": "alone",
+   "say": "Se llama Pipo, y está solo.",
+   "top": [
+    "SE LLAMA PIPO",
+    "Y ESTÁ SOLO"
+   ],
+   "topColor": "#7fc6ff",
+   "subs": [
+    "Se llama *Pipo*,",
+    "y está ~solo~."
+   ]
+  },
+  {
+   "id": "change",
+   "say": "Pero tú puedes cambiarlo.",
+   "top": [
+    "PERO TÚ",
+    "PUEDES CAMBIARLO"
+   ],
+   "subs": [
+    "Pero *tú*",
+    "puedes *cambiarlo*."
+   ]
+  },
+  {
+   "id": "rule",
+   "say": "Cada nuevo seguidor trae un amigo para Pipo.",
+   "top": [
+    "1 SEGUIDOR",
+    "= 1 AMIGO"
+   ],
+   "subs": [
+    "Cada nuevo *seguidor*",
+    "trae un *amigo*",
+    "para Pipo."
+   ]
+  },
+  {
+   "id": "houses",
+   "say": "Y si escribes un nombre en comentarios, ese cachorro tendrá su casa aquí.",
+   "top": [
+    "1 NOMBRE",
+    "= 1 CASA"
+   ],
+   "subs": [
+    "Y si escribes",
+    "un *nombre*",
+    "en *comentarios*,",
+    "ese cachorro",
+    "tendrá su *casa* aquí."
+   ]
+  },
+  {
+   "id": "secret",
+   "say": "A mil seguidores, desbloqueamos una sorpresa. Y a diez mil... ya verás.",
+   "top": [
+    "+1.000 SEGUIDORES",
+    "UNA SORPRESA"
+   ],
+   "subs": [
+    "A *mil* seguidores,",
+    "desbloqueamos",
+    "una *sorpresa*.",
+    "Y a *diez mil*...",
+    "ya verás."
+   ],
+   "chunkTop": [
+    null,
+    null,
+    null,
+    [
+     "+10.000 SEGUIDORES",
+     "???"
+    ],
+    [
+     "+10.000 SEGUIDORES",
+     "???"
+    ]
+   ]
+  },
+  {
+   "id": "vote",
+   "say": "¿Qué construimos primero? A: un parque acuático. B: una pastelería para perros. C: un hotel de lujo.",
+   "top": [
+    "¿QUÉ CONSTRUIMOS",
+    "PRIMERO?"
+   ],
+   "subs": [
+    "¿Qué *construimos*",
+    "primero?",
+    "A: un *parque acuático*.",
+    "B: una *pastelería*",
+    "para perros.",
+    "C: un *hotel de lujo*."
+   ]
+  },
+  {
+   "id": "comment",
+   "say": "Comenta A, B o C. ¡El más votado gana!",
+   "top": [
+    "COMENTA",
+    "A, B O C"
+   ],
+   "subs": [
+    "Comenta *A, B o C*.",
+    "¡El más *votado* gana!"
+   ]
+  },
+  {
+   "id": "follow",
+   "say": "Síguenos para ver crecer el pueblo de Pipo.",
+   "top": [
+    "SÍGUENOS PARA VER",
+    "CRECER EL PUEBLO"
+   ],
+   "subs": [
+    "*Síguenos*",
+    "para ver crecer",
+    "el pueblo de *Pipo*."
+   ]
+  }
+ ],
+ "ui": {
+  "follow": "SEGUIR",
+  "following": "SIGUIENDO",
+  "rule": "1 SEGUIDOR = 1 AMIGO",
+  "name": "PIPO",
+  "result": "RESULTADO EN 2 DÍAS",
+  "sign": [
+   "VILLA",
+   "PATITAS"
+  ]
+ },
+ "labels": [
+  [
+   "Canela",
+   "@sofi_23"
+  ],
+  [
+   "Toby",
+   "@mateo.rx"
+  ],
+  [
+   "Luna",
+   "@vale_mx"
+  ],
+  [
+   "Rocky",
+   "@diego_ff"
+  ],
+  [
+   "Nala",
+   "@cami.v"
+  ]
+ ]
+}

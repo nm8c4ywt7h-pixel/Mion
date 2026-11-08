@@ -39,3 +39,10 @@ ffmpeg -framerate 30 -i frames_es/%04d.jpg -i mix_es.wav -c:v libx264 -crf 18 -p
 ```
 Pour la décliner en français ou dans une autre langue : copier `script_es.json` (phrases, sous-titres et textes
 de l'interface dans `ui`), changer la voix, puis relancer les mêmes commandes.
+
+## Version 2 « Pipo, el único perro del pueblo » (espagnol, ≈ 30 s)
+Scène `scene3.html`, script `script_es2.json` :
+```
+python3 make_audio.py es2 && SCENE=scene3.html node render.js es2 30 && python3 mix.py es2
+ffmpeg -framerate 30 -i frames_es2/%04d.jpg -i mix_es2.wav -c:v libx264 -crf 18 -pix_fmt yuv420p -c:a aac -shortest pipo_es.mp4
+```
