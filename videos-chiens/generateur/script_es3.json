@@ -1,0 +1,369 @@
+{
+ "voice": "es-MX-JorgeNeural",
+ "rate": "-5%",
+ "lines": [
+  {
+   "id": "hook",
+   "say": "Este cachorro es el único perro de todo el pueblo.",
+   "top": [
+    "EL ÚNICO PERRO",
+    "DEL PUEBLO"
+   ],
+   "subs": [
+    "Este *cachorro*",
+    "es el único perro",
+    "de todo el *pueblo*."
+   ]
+  },
+  {
+   "id": "alone",
+   "say": "Se llama Pipo, y está solo.",
+   "top": [
+    "SE LLAMA PIPO",
+    "Y ESTÁ SOLO"
+   ],
+   "topColor": "#7fc6ff",
+   "subs": [
+    "Se llama *Pipo*,",
+    "y está ~solo~."
+   ],
+   "pause": 0.6
+  },
+  {
+   "id": "door",
+   "say": "Cada mañana, se sienta en la entrada del pueblo, por si llega alguien.",
+   "top": [
+    "CADA MAÑANA",
+    "ESPERA AQUÍ"
+   ],
+   "subs": [
+    "Cada *mañana*,",
+    "se sienta",
+    "en la *entrada* del pueblo,",
+    "por si llega *alguien*."
+   ]
+  },
+  {
+   "id": "ball",
+   "say": "Juega con su pelota, pero nadie se la devuelve.",
+   "top": [
+    "JUEGA SOLO",
+    "CON SU PELOTA"
+   ],
+   "subs": [
+    "Juega con su *pelota*,",
+    "pero ~nadie~",
+    "se la devuelve."
+   ]
+  },
+  {
+   "id": "night",
+   "say": "Y por la noche, duerme solito en su caseta.",
+   "top": [
+    "Y POR LA NOCHE",
+    "DUERME SOLITO"
+   ],
+   "topColor": "#7fc6ff",
+   "subs": [
+    "Y por la *noche*,",
+    "duerme ~solito~",
+    "en su caseta."
+   ],
+   "pause": 0.8
+  },
+  {
+   "id": "idea",
+   "say": "Pero esta mañana, el alcalde tuvo una idea.",
+   "top": [
+    "PERO ESTA MAÑANA",
+    "¡UNA IDEA!"
+   ],
+   "subs": [
+    "Pero esta *mañana*,",
+    "el *alcalde*",
+    "tuvo una *idea*."
+   ]
+  },
+  {
+   "id": "change",
+   "say": "Y la idea eres tú.",
+   "top": [
+    "Y LA IDEA",
+    "ERES TÚ"
+   ],
+   "subs": [
+    "Y la idea",
+    "eres *tú*."
+   ],
+   "pause": 0.5
+  },
+  {
+   "id": "rule",
+   "say": "Cada nuevo seguidor trae un amigo para Pipo.",
+   "top": [
+    "1 SEGUIDOR",
+    "= 1 AMIGO"
+   ],
+   "subs": [
+    "Cada nuevo *seguidor*",
+    "trae un *amigo*",
+    "para Pipo."
+   ]
+  },
+  {
+   "id": "breeds",
+   "say": "Golden, chihuahua, husky, salchicha... ¡todos son bienvenidos!",
+   "top": [
+    "TODOS SON",
+    "¡BIENVENIDOS!"
+   ],
+   "subs": [
+    "*Golden*,",
+    "*chihuahua*,",
+    "*husky*,",
+    "*salchicha*...",
+    "¡todos son *bienvenidos*!"
+   ],
+   "pause": 0.3
+  },
+  {
+   "id": "houses",
+   "say": "Y si escribes un nombre en comentarios, ese cachorro tendrá su casa aquí, con su nombre.",
+   "top": [
+    "1 NOMBRE",
+    "= 1 CASA"
+   ],
+   "subs": [
+    "Y si escribes",
+    "un *nombre*",
+    "en *comentarios*,",
+    "ese cachorro",
+    "tendrá su *casa* aquí,",
+    "con su *nombre*."
+   ]
+  },
+  {
+   "id": "special",
+   "say": "Y los nombres con más likes tendrán una casa especial: con forma de hueso, un castillo, o una casa con piscina.",
+   "top": [
+    "LOS MÁS LIKEADOS",
+    "CASA ESPECIAL"
+   ],
+   "subs": [
+    "Y los nombres",
+    "con más *likes*",
+    "tendrán una casa *especial*:",
+    "con forma de *hueso*,",
+    "un *castillo*,",
+    "o una casa",
+    "con *piscina*."
+   ]
+  },
+  {
+   "id": "team",
+   "say": "Lola, la cartera, ya está nerviosa. Y doña Carmen escondió a sus cuarenta gatos.",
+   "top": [
+    "",
+    ""
+   ],
+   "subs": [
+    "*Lola*, la cartera,",
+    "ya está ~nerviosa~.",
+    "Y doña *Carmen*",
+    "escondió",
+    "a sus *40 gatos*."
+   ],
+   "chunkShot": [
+    1,
+    1,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "id": "secret",
+   "say": "A mil seguidores, desbloqueamos una sorpresa. Y a diez mil... ya verás.",
+   "top": [
+    "+1.000 SEGUIDORES",
+    "UNA SORPRESA"
+   ],
+   "subs": [
+    "A *mil* seguidores,",
+    "desbloqueamos",
+    "una *sorpresa*.",
+    "Y a *diez mil*...",
+    "ya verás."
+   ],
+   "chunkTop": [
+    null,
+    null,
+    null,
+    [
+     "+10.000 SEGUIDORES",
+     "???"
+    ],
+    [
+     "+10.000 SEGUIDORES",
+     "???"
+    ]
+   ],
+   "pause": 0.5
+  },
+  {
+   "id": "party",
+   "say": "Y a cien mil, Pipo tendrá la fiesta más grande del mundo.",
+   "top": [
+    "+100.000",
+    "¡LA GRAN FIESTA!"
+   ],
+   "subs": [
+    "Y a *cien mil*,",
+    "Pipo tendrá",
+    "la *fiesta* más grande",
+    "del *mundo*."
+   ],
+   "pause": 0.8
+  },
+  {
+   "id": "vote",
+   "say": "Pero primero, ¿qué construimos? A: un parque acuático. B: una pastelería para perros. C: un hotel de lujo.",
+   "top": [
+    "¿QUÉ CONSTRUIMOS",
+    "PRIMERO?"
+   ],
+   "subs": [
+    "Pero primero,",
+    "¿qué *construimos*?",
+    "A: un *parque acuático*.",
+    "B: una *pastelería*",
+    "para perros.",
+    "C: un *hotel de lujo*."
+   ]
+  },
+  {
+   "id": "comment",
+   "say": "Comenta A, B o C. ¡El más votado gana! El resultado, en dos días.",
+   "top": [
+    "COMENTA",
+    "A, B O C"
+   ],
+   "subs": [
+    "Comenta *A, B o C*.",
+    "¡El más *votado* gana!",
+    "El *resultado*,",
+    "en dos días."
+   ]
+  },
+  {
+   "id": "remember",
+   "say": "Y no olvides el nombre de tu cachorro. Mañana, podría vivir aquí, al lado de Pipo.",
+   "top": [
+    "ESCRIBE EL NOMBRE",
+    "DE TU CACHORRO"
+   ],
+   "subs": [
+    "Y no olvides",
+    "el *nombre*",
+    "de tu *cachorro*.",
+    "Mañana,",
+    "podría vivir *aquí*,",
+    "al lado de *Pipo*."
+   ]
+  },
+  {
+   "id": "thanks",
+   "say": "Gracias a ti, Pipo nunca más estará solo.",
+   "top": [
+    "GRACIAS A TI",
+    "NUNCA MÁS SOLO"
+   ],
+   "subs": [
+    "Gracias a *ti*,",
+    "Pipo nunca más",
+    "estará *solo*."
+   ],
+   "pause": 0.7
+  },
+  {
+   "id": "follow",
+   "say": "Síguenos para ver crecer el pueblo de Pipo.",
+   "top": [
+    "SÍGUENOS PARA VER",
+    "CRECER EL PUEBLO"
+   ],
+   "subs": [
+    "*Síguenos*",
+    "para ver crecer",
+    "el pueblo de *Pipo*."
+   ]
+  }
+ ],
+ "ui": {
+  "follow": "SEGUIR",
+  "following": "SIGUIENDO",
+  "rule": "1 SEGUIDOR = 1 AMIGO",
+  "name": "PIPO",
+  "result": "RESULTADO EN 2 DÍAS",
+  "sign": [
+   "VILLA",
+   "PATITAS"
+  ],
+  "team": [
+   [
+    "1",
+    "ABUELO PACO",
+    "90 años"
+   ],
+   [
+    "2",
+    "LOLA",
+    "Cartera · ¡nerviosa!"
+   ],
+   [
+    "3",
+    "DOÑA CARMEN",
+    "40 gatos escondidos"
+   ]
+  ],
+  "yourHouse": "TU CASA",
+  "zzz": "Zzz"
+ },
+ "labels": [
+  [
+   "Canela",
+   "@sofi_23"
+  ],
+  [
+   "Toby",
+   "@mateo.rx"
+  ],
+  [
+   "Luna",
+   "@vale_mx"
+  ],
+  [
+   "Rocky",
+   "@diego_ff"
+  ],
+  [
+   "Nala",
+   "@cami.v"
+  ]
+ ],
+ "special": [
+  [
+   "Max",
+   "@ana_g"
+  ],
+  [
+   "Princesa",
+   "@lu.mx"
+  ],
+  [
+   "Coco",
+   "@javi_10"
+  ]
+ ],
+ "tail": 1.6
+}
