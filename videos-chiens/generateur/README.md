@@ -46,3 +46,13 @@ Scène `scene3.html`, script `script_es2.json` :
 python3 make_audio.py es2 && SCENE=scene3.html node render.js es2 30 && python3 mix.py es2
 ffmpeg -framerate 30 -i frames_es2/%04d.jpg -i mix_es2.wav -c:v libx264 -crf 18 -pix_fmt yuv420p -c:a aac -shortest pipo_es.mp4
 ```
+
+## Série thématique (scene5.html) : Luna (neige), Rocky (automne), Coco (plage)
+La scène `scene5.html` est paramétrable depuis le JSON du script :
+- `theme` : couleurs, type d'arbres (`pine`, `snow`, `autumn`, `palm`), météo (`snow`, `leaves`), mer ;
+- `hero` : couleurs, largeur, oreilles et taille du chien ;
+- `prop` : objet de jeu (`ball`, `snowball`, `frisbee`, `beach`) ;
+- `specialTypes` et `voteTypes` : bâtiments tirés de la bibliothèque.
+```
+GAP=0.42 python3 make_audio.py luna && SCENE=scene5.html node render.js luna 30 && python3 mix.py luna
+```

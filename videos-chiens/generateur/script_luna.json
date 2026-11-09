@@ -1,0 +1,399 @@
+{
+ "voice": "es-MX-JorgeNeural",
+ "rate": "-5%",
+ "lines": [
+  {
+   "id": "hook",
+   "say": "Esta perrita es la única de todo el pueblo, y está perdida en la nieve.",
+   "top": [
+    "PERDIDA",
+    "EN LA NIEVE"
+   ],
+   "subs": [
+    "Esta *perrita*",
+    "es la única",
+    "de todo el pueblo,",
+    "y está ~perdida~",
+    "en la *nieve*."
+   ]
+  },
+  {
+   "id": "alone",
+   "say": "Se llama Luna, y tiene frío.",
+   "top": [
+    "SE LLAMA LUNA",
+    "Y TIENE FRÍO"
+   ],
+   "topColor": "#7fc6ff",
+   "subs": [
+    "Se llama *Luna*,",
+    "y tiene ~frío~."
+   ],
+   "pause": 0.6
+  },
+  {
+   "id": "door",
+   "say": "Cada mañana, espera en la entrada del pueblo, por si vuelve su familia.",
+   "top": [
+    "CADA MAÑANA",
+    "ESPERA A SU FAMILIA"
+   ],
+   "subs": [
+    "Cada *mañana*,",
+    "espera",
+    "en la *entrada* del pueblo,",
+    "por si vuelve su *familia*."
+   ]
+  },
+  {
+   "id": "ball",
+   "say": "Hace bolas de nieve, pero nadie juega con ella.",
+   "top": [
+    "JUEGA SOLA",
+    "EN LA NIEVE"
+   ],
+   "subs": [
+    "Hace bolas de *nieve*,",
+    "pero ~nadie~",
+    "juega con ella."
+   ]
+  },
+  {
+   "id": "night",
+   "say": "Y por la noche, tiembla solita en su caseta.",
+   "top": [
+    "Y POR LA NOCHE",
+    "TIEMBLA SOLITA"
+   ],
+   "topColor": "#7fc6ff",
+   "subs": [
+    "Y por la *noche*,",
+    "tiembla ~solita~",
+    "en su caseta."
+   ],
+   "pause": 0.8
+  },
+  {
+   "id": "idea",
+   "say": "Pero hoy, el alcalde tuvo una idea.",
+   "top": [
+    "PERO HOY",
+    "¡UNA IDEA!"
+   ],
+   "subs": [
+    "Pero *hoy*,",
+    "el *alcalde*",
+    "tuvo una *idea*."
+   ]
+  },
+  {
+   "id": "change",
+   "say": "Y la idea eres tú.",
+   "top": [
+    "Y LA IDEA",
+    "ERES TÚ"
+   ],
+   "subs": [
+    "Y la idea",
+    "eres *tú*."
+   ],
+   "pause": 0.5
+  },
+  {
+   "id": "rule",
+   "say": "Cada nuevo seguidor trae un amigo para Luna.",
+   "top": [
+    "1 SEGUIDOR",
+    "= 1 AMIGO"
+   ],
+   "subs": [
+    "Cada nuevo *seguidor*",
+    "trae un *amigo*",
+    "para Luna."
+   ]
+  },
+  {
+   "id": "breeds",
+   "say": "Golden, chihuahua, husky, salchicha... ¡todos caben aquí!",
+   "top": [
+    "TODOS",
+    "¡CABEN AQUÍ!"
+   ],
+   "subs": [
+    "*Golden*,",
+    "*chihuahua*,",
+    "*husky*,",
+    "*salchicha*...",
+    "¡todos *caben* aquí!"
+   ],
+   "pause": 0.3
+  },
+  {
+   "id": "houses",
+   "say": "Escribe un nombre en comentarios, y ese cachorro tendrá su casa calentita aquí, con su nombre.",
+   "top": [
+    "1 NOMBRE",
+    "= 1 CASA"
+   ],
+   "subs": [
+    "Escribe",
+    "un *nombre*",
+    "en *comentarios*,",
+    "y ese cachorro",
+    "tendrá su casa *calentita*,",
+    "con su *nombre*."
+   ]
+  },
+  {
+   "id": "special",
+   "say": "Y los nombres con más likes tendrán una casa especial: un iglú, una cabaña, o un castillo de hielo.",
+   "top": [
+    "LOS MÁS LIKEADOS",
+    "CASA ESPECIAL"
+   ],
+   "subs": [
+    "Y los nombres",
+    "con más *likes*",
+    "tendrán una casa *especial*:",
+    "un *iglú*,",
+    "una *cabaña*,",
+    "o un castillo",
+    "de *hielo*."
+   ]
+  },
+  {
+   "id": "team",
+   "say": "Lola, la cartera, ya está temblando. Y doña Carmen tejió cuarenta bufandas.",
+   "top": [
+    "",
+    ""
+   ],
+   "subs": [
+    "*Lola*, la cartera,",
+    "ya está ~temblando~.",
+    "Y doña *Carmen*",
+    "tejió",
+    "*40 bufandas*."
+   ],
+   "chunkShot": [
+    1,
+    1,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "id": "secret",
+   "say": "A mil seguidores, desbloqueamos una sorpresa. Y a diez mil... ya verás.",
+   "top": [
+    "+1.000 SEGUIDORES",
+    "UNA SORPRESA"
+   ],
+   "subs": [
+    "A *mil* seguidores,",
+    "desbloqueamos",
+    "una *sorpresa*.",
+    "Y a *diez mil*...",
+    "ya verás."
+   ],
+   "chunkTop": [
+    null,
+    null,
+    null,
+    [
+     "+10.000 SEGUIDORES",
+     "???"
+    ],
+    [
+     "+10.000 SEGUIDORES",
+     "???"
+    ]
+   ],
+   "pause": 0.5
+  },
+  {
+   "id": "party",
+   "say": "Y a cien mil, Luna tendrá la fiesta de nieve más grande del mundo.",
+   "top": [
+    "+100.000",
+    "¡FIESTA DE NIEVE!"
+   ],
+   "subs": [
+    "Y a *cien mil*,",
+    "Luna tendrá",
+    "la *fiesta de nieve*",
+    "más grande del *mundo*."
+   ],
+   "pause": 0.8
+  },
+  {
+   "id": "vote",
+   "say": "Pero primero, ¿qué construimos? A: una pista de trineos. B: una chocolatería. C: una chimenea gigante.",
+   "top": [
+    "¿QUÉ CONSTRUIMOS",
+    "PRIMERO?"
+   ],
+   "subs": [
+    "Pero primero,",
+    "¿qué *construimos*?",
+    "A: una *pista de trineos*.",
+    "B: una *chocolatería*",
+    "para todos.",
+    "C: una *chimenea gigante*."
+   ]
+  },
+  {
+   "id": "comment",
+   "say": "Comenta A, B o C. ¡El más votado gana! El resultado, en dos días.",
+   "top": [
+    "COMENTA",
+    "A, B O C"
+   ],
+   "subs": [
+    "Comenta *A, B o C*.",
+    "¡El más *votado* gana!",
+    "El *resultado*,",
+    "en dos días."
+   ]
+  },
+  {
+   "id": "remember",
+   "say": "Y no olvides el nombre de tu cachorro. Mañana, podría vivir aquí, junto a Luna.",
+   "top": [
+    "ESCRIBE EL NOMBRE",
+    "DE TU CACHORRO"
+   ],
+   "subs": [
+    "Y no olvides",
+    "el *nombre*",
+    "de tu *cachorro*.",
+    "Mañana,",
+    "podría vivir *aquí*,",
+    "junto a *Luna*."
+   ]
+  },
+  {
+   "id": "thanks",
+   "say": "Gracias a ti, Luna nunca más tendrá frío.",
+   "top": [
+    "GRACIAS A TI",
+    "NUNCA MÁS FRÍO"
+   ],
+   "subs": [
+    "Gracias a *ti*,",
+    "Luna nunca más",
+    "tendrá *frío*."
+   ],
+   "pause": 0.7
+  },
+  {
+   "id": "follow",
+   "say": "Síguenos para ver crecer el pueblo de Luna.",
+   "top": [
+    "SÍGUENOS PARA VER",
+    "CRECER EL PUEBLO"
+   ],
+   "subs": [
+    "*Síguenos*",
+    "para ver crecer",
+    "el pueblo de *Luna*."
+   ]
+  }
+ ],
+ "ui": {
+  "follow": "SEGUIR",
+  "following": "SIGUIENDO",
+  "rule": "1 SEGUIDOR = 1 AMIGO",
+  "name": "LUNA",
+  "result": "RESULTADO EN 2 DÍAS",
+  "sign": [
+   "VILLA",
+   "PATITAS"
+  ],
+  "team": [
+   [
+    "1",
+    "ABUELO PACO",
+    "90 años"
+   ],
+   [
+    "2",
+    "LOLA",
+    "Cartera · ¡temblando!"
+   ],
+   [
+    "3",
+    "DOÑA CARMEN",
+    "40 bufandas tejidas"
+   ]
+  ],
+  "yourHouse": "TU CASA",
+  "zzz": "Zzz"
+ },
+ "labels": [
+  [
+   "Copito",
+   "@sofi_23"
+  ],
+  [
+   "Max",
+   "@mateo.rx"
+  ],
+  [
+   "Bruno",
+   "@vale_mx"
+  ],
+  [
+   "Kira",
+   "@diego_ff"
+  ],
+  [
+   "Toby",
+   "@cami.v"
+  ]
+ ],
+ "special": [
+  [
+   "Copo",
+   "@ana_g"
+  ],
+  [
+   "Nieve",
+   "@lu.mx"
+  ],
+  [
+   "Oso",
+   "@javi_10"
+  ]
+ ],
+ "tail": 1.6,
+ "theme": {
+  "ground": "#eef4fb",
+  "plot": "#dce7f3",
+  "sky": "#a9d8ff",
+  "fog": "#e3efff",
+  "trees": "snow",
+  "weather": "snow"
+ },
+ "hero": {
+  "c1": "#8f9aa8",
+  "c2": "#ffffff",
+  "mask": true,
+  "earUp": true,
+  "ear": 1.1,
+  "earC": "#8f9aa8",
+  "scale": 1.7
+ },
+ "prop": "snowball",
+ "specialTypes": [
+  "igloo",
+  "cabin",
+  "icecastle"
+ ],
+ "voteTypes": [
+  "sled",
+  "choco",
+  "fireplace"
+ ]
+}

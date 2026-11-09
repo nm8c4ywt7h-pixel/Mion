@@ -1,0 +1,398 @@
+{
+ "voice": "es-MX-JorgeNeural",
+ "rate": "-5%",
+ "lines": [
+  {
+   "id": "hook",
+   "say": "En este pueblo de playa no hay ni un perro... excepto Coco.",
+   "top": [
+    "NI UN PERRO...",
+    "¡EXCEPTO COCO!"
+   ],
+   "subs": [
+    "En este pueblo",
+    "de *playa*",
+    "no hay ni un ~perro~...",
+    "excepto *Coco*."
+   ]
+  },
+  {
+   "id": "alone",
+   "say": "Coco pesa un kilo, y está solo.",
+   "top": [
+    "PESA 1 KILO",
+    "Y ESTÁ SOLO"
+   ],
+   "topColor": "#7fc6ff",
+   "subs": [
+    "Coco pesa *un kilo*,",
+    "y está ~solo~."
+   ],
+   "pause": 0.6
+  },
+  {
+   "id": "door",
+   "say": "Cada mañana, vigila la entrada del pueblo, como un perro guardián.",
+   "top": [
+    "CADA MAÑANA",
+    "¡PERRO GUARDIÁN!"
+   ],
+   "subs": [
+    "Cada *mañana*,",
+    "vigila",
+    "la *entrada* del pueblo,",
+    "como un *perro guardián*."
+   ]
+  },
+  {
+   "id": "ball",
+   "say": "Juega con su pelota de playa, pero el viento siempre se la lleva.",
+   "top": [
+    "SU PELOTA",
+    "SE LA LLEVA EL VIENTO"
+   ],
+   "subs": [
+    "Juega con su *pelota*,",
+    "pero el ~viento~",
+    "siempre se la lleva."
+   ]
+  },
+  {
+   "id": "night",
+   "say": "Y por la noche, le ladra a las olas para no sentirse solo.",
+   "top": [
+    "POR LA NOCHE",
+    "LADRA A LAS OLAS"
+   ],
+   "topColor": "#7fc6ff",
+   "subs": [
+    "Y por la *noche*,",
+    "le ladra a las *olas*",
+    "para no sentirse",
+    "~solo~."
+   ],
+   "pause": 0.8
+  },
+  {
+   "id": "idea",
+   "say": "Pero esta mañana, el alcalde tuvo una idea.",
+   "top": [
+    "PERO ESTA MAÑANA",
+    "¡UNA IDEA!"
+   ],
+   "subs": [
+    "Pero esta *mañana*,",
+    "el *alcalde*",
+    "tuvo una *idea*."
+   ]
+  },
+  {
+   "id": "change",
+   "say": "Y la idea eres tú.",
+   "top": [
+    "Y LA IDEA",
+    "ERES TÚ"
+   ],
+   "subs": [
+    "Y la idea",
+    "eres *tú*."
+   ],
+   "pause": 0.5
+  },
+  {
+   "id": "rule",
+   "say": "Cada nuevo seguidor trae un amigo para Coco.",
+   "top": [
+    "1 SEGUIDOR",
+    "= 1 AMIGO"
+   ],
+   "subs": [
+    "Cada nuevo *seguidor*",
+    "trae un *amigo*",
+    "para Coco."
+   ]
+  },
+  {
+   "id": "breeds",
+   "say": "Golden, chihuahua, husky, salchicha... ¡la playa es de todos!",
+   "top": [
+    "¡LA PLAYA",
+    "ES DE TODOS!"
+   ],
+   "subs": [
+    "*Golden*,",
+    "*chihuahua*,",
+    "*husky*,",
+    "*salchicha*...",
+    "¡la playa es de *todos*!"
+   ],
+   "pause": 0.3
+  },
+  {
+   "id": "houses",
+   "say": "Y si escribes un nombre en comentarios, ese cachorro tendrá su casa aquí, con su nombre.",
+   "top": [
+    "1 NOMBRE",
+    "= 1 CASA"
+   ],
+   "subs": [
+    "Y si escribes",
+    "un *nombre*",
+    "en *comentarios*,",
+    "ese cachorro",
+    "tendrá su *casa* aquí,",
+    "con su *nombre*."
+   ]
+  },
+  {
+   "id": "special",
+   "say": "Y los nombres con más likes tendrán una casa especial: un castillo de arena, un barco, o una casa con piscina.",
+   "top": [
+    "LOS MÁS LIKEADOS",
+    "CASA ESPECIAL"
+   ],
+   "subs": [
+    "Y los nombres",
+    "con más *likes*",
+    "tendrán una casa *especial*:",
+    "un *castillo de arena*,",
+    "un *barco*,",
+    "o una casa",
+    "con *piscina*."
+   ]
+  },
+  {
+   "id": "team",
+   "say": "Lola, la cartera, ya se puso nerviosa. Y doña Carmen compró cuarenta flotadores.",
+   "top": [
+    "",
+    ""
+   ],
+   "subs": [
+    "*Lola*, la cartera,",
+    "ya está ~nerviosa~.",
+    "Y doña *Carmen*",
+    "compró",
+    "*40 flotadores*."
+   ],
+   "chunkShot": [
+    1,
+    1,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "id": "secret",
+   "say": "A mil seguidores, desbloqueamos una sorpresa. Y a diez mil... ya verás.",
+   "top": [
+    "+1.000 SEGUIDORES",
+    "UNA SORPRESA"
+   ],
+   "subs": [
+    "A *mil* seguidores,",
+    "desbloqueamos",
+    "una *sorpresa*.",
+    "Y a *diez mil*...",
+    "ya verás."
+   ],
+   "chunkTop": [
+    null,
+    null,
+    null,
+    [
+     "+10.000 SEGUIDORES",
+     "???"
+    ],
+    [
+     "+10.000 SEGUIDORES",
+     "???"
+    ]
+   ],
+   "pause": 0.5
+  },
+  {
+   "id": "party",
+   "say": "Y a cien mil, Coco tendrá la fiesta en la playa más grande del mundo.",
+   "top": [
+    "+100.000",
+    "¡FIESTA EN LA PLAYA!"
+   ],
+   "subs": [
+    "Y a *cien mil*,",
+    "Coco tendrá",
+    "la *fiesta en la playa*",
+    "más grande del *mundo*."
+   ],
+   "pause": 0.8
+  },
+  {
+   "id": "vote",
+   "say": "Pero primero, ¿qué construimos? A: una tienda de surf. B: una heladería. C: un faro.",
+   "top": [
+    "¿QUÉ CONSTRUIMOS",
+    "PRIMERO?"
+   ],
+   "subs": [
+    "Pero primero,",
+    "¿qué *construimos*?",
+    "A: una *tienda de surf*.",
+    "B: una *heladería*",
+    "para perros.",
+    "C: un *faro*."
+   ]
+  },
+  {
+   "id": "comment",
+   "say": "Comenta A, B o C. ¡El más votado gana! El resultado, en dos días.",
+   "top": [
+    "COMENTA",
+    "A, B O C"
+   ],
+   "subs": [
+    "Comenta *A, B o C*.",
+    "¡El más *votado* gana!",
+    "El *resultado*,",
+    "en dos días."
+   ]
+  },
+  {
+   "id": "remember",
+   "say": "Y no olvides el nombre de tu cachorro. Mañana, podría vivir aquí, frente al mar.",
+   "top": [
+    "ESCRIBE EL NOMBRE",
+    "DE TU CACHORRO"
+   ],
+   "subs": [
+    "Y no olvides",
+    "el *nombre*",
+    "de tu *cachorro*.",
+    "Mañana,",
+    "podría vivir *aquí*,",
+    "frente al *mar*."
+   ]
+  },
+  {
+   "id": "thanks",
+   "say": "Gracias a ti, Coco ya tiene su manada.",
+   "top": [
+    "GRACIAS A TI",
+    "¡YA TIENE MANADA!"
+   ],
+   "subs": [
+    "Gracias a *ti*,",
+    "Coco ya tiene",
+    "su *manada*."
+   ],
+   "pause": 0.7
+  },
+  {
+   "id": "follow",
+   "say": "Síguenos para ver crecer el pueblo de Coco.",
+   "top": [
+    "SÍGUENOS PARA VER",
+    "CRECER EL PUEBLO"
+   ],
+   "subs": [
+    "*Síguenos*",
+    "para ver crecer",
+    "el pueblo de *Coco*."
+   ]
+  }
+ ],
+ "ui": {
+  "follow": "SEGUIR",
+  "following": "SIGUIENDO",
+  "rule": "1 SEGUIDOR = 1 AMIGO",
+  "name": "COCO",
+  "result": "RESULTADO EN 2 DÍAS",
+  "sign": [
+   "VILLA",
+   "PATITAS"
+  ],
+  "team": [
+   [
+    "1",
+    "ABUELO PACO",
+    "90 años"
+   ],
+   [
+    "2",
+    "LOLA",
+    "Cartera · ¡nerviosa!"
+   ],
+   [
+    "3",
+    "DOÑA CARMEN",
+    "40 flotadores"
+   ]
+  ],
+  "yourHouse": "TU CASA",
+  "zzz": "Zzz"
+ },
+ "labels": [
+  [
+   "Bombón",
+   "@sofi_23"
+  ],
+  [
+   "Pirata",
+   "@mateo.rx"
+  ],
+  [
+   "Arena",
+   "@vale_mx"
+  ],
+  [
+   "Ola",
+   "@diego_ff"
+  ],
+  [
+   "Sol",
+   "@cami.v"
+  ]
+ ],
+ "special": [
+  [
+   "Marina",
+   "@ana_g"
+  ],
+  [
+   "Capitán",
+   "@lu.mx"
+  ],
+  [
+   "Perla",
+   "@javi_10"
+  ]
+ ],
+ "tail": 1.6,
+ "theme": {
+  "ground": "#f3dfa2",
+  "plot": "#fbefc8",
+  "sky": "#7fd6ff",
+  "fog": "#c8f0ff",
+  "trees": "palm",
+  "weather": "none",
+  "sea": true
+ },
+ "hero": {
+  "c1": "#d9a066",
+  "c2": "#f6dcb8",
+  "ear": 1.9,
+  "earUp": true,
+  "scale": 1.25
+ },
+ "prop": "beach",
+ "specialTypes": [
+  "sandcastle",
+  "boat",
+  "pool"
+ ],
+ "voteTypes": [
+  "surf",
+  "icecream",
+  "lighthouse"
+ ]
+}

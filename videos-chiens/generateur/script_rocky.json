@@ -1,0 +1,398 @@
+{
+ "voice": "es-MX-JorgeNeural",
+ "rate": "-5%",
+ "lines": [
+  {
+   "id": "hook",
+   "say": "Este perro lleva tres años esperando una familia.",
+   "top": [
+    "3 AÑOS",
+    "ESPERANDO"
+   ],
+   "subs": [
+    "Este *perro*",
+    "lleva *tres años*",
+    "esperando",
+    "una *familia*."
+   ]
+  },
+  {
+   "id": "alone",
+   "say": "Se llama Rocky, y nadie lo elige.",
+   "top": [
+    "SE LLAMA ROCKY",
+    "NADIE LO ELIGE"
+   ],
+   "topColor": "#7fc6ff",
+   "subs": [
+    "Se llama *Rocky*,",
+    "y ~nadie~ lo elige."
+   ],
+   "pause": 0.6
+  },
+  {
+   "id": "door",
+   "say": "Cada día, se sienta en la entrada del pueblo, viendo pasar a la gente.",
+   "top": [
+    "CADA DÍA",
+    "MIRA PASAR A LA GENTE"
+   ],
+   "subs": [
+    "Cada *día*,",
+    "se sienta",
+    "en la *entrada* del pueblo,",
+    "viendo pasar a la *gente*."
+   ]
+  },
+  {
+   "id": "ball",
+   "say": "Lanza su frisbee, pero nadie se lo devuelve.",
+   "top": [
+    "SU FRISBEE",
+    "NADIE LO DEVUELVE"
+   ],
+   "subs": [
+    "Lanza su *frisbee*,",
+    "pero ~nadie~",
+    "se lo devuelve."
+   ]
+  },
+  {
+   "id": "night",
+   "say": "Y cada noche, se duerme pensando que mañana será su día.",
+   "top": [
+    "CADA NOCHE",
+    "SUEÑA CON MAÑANA"
+   ],
+   "topColor": "#7fc6ff",
+   "subs": [
+    "Y cada *noche*,",
+    "se duerme pensando",
+    "que *mañana*",
+    "será su *día*."
+   ],
+   "pause": 0.8
+  },
+  {
+   "id": "idea",
+   "say": "Hasta que el alcalde tuvo una idea.",
+   "top": [
+    "HASTA QUE...",
+    "¡UNA IDEA!"
+   ],
+   "subs": [
+    "Hasta que",
+    "el *alcalde*",
+    "tuvo una *idea*."
+   ]
+  },
+  {
+   "id": "change",
+   "say": "Y esa idea eres tú.",
+   "top": [
+    "Y ESA IDEA",
+    "ERES TÚ"
+   ],
+   "subs": [
+    "Y esa idea",
+    "eres *tú*."
+   ],
+   "pause": 0.5
+  },
+  {
+   "id": "rule",
+   "say": "Cada nuevo seguidor trae un amigo para Rocky.",
+   "top": [
+    "1 SEGUIDOR",
+    "= 1 AMIGO"
+   ],
+   "subs": [
+    "Cada nuevo *seguidor*",
+    "trae un *amigo*",
+    "para Rocky."
+   ]
+  },
+  {
+   "id": "breeds",
+   "say": "Golden, chihuahua, husky, salchicha... ¡aquí nadie se queda solo!",
+   "top": [
+    "AQUÍ NADIE",
+    "SE QUEDA SOLO"
+   ],
+   "subs": [
+    "*Golden*,",
+    "*chihuahua*,",
+    "*husky*,",
+    "*salchicha*...",
+    "¡aquí nadie se queda *solo*!"
+   ],
+   "pause": 0.3
+  },
+  {
+   "id": "houses",
+   "say": "Y si escribes un nombre en comentarios, ese cachorro tendrá su casa aquí, con su nombre.",
+   "top": [
+    "1 NOMBRE",
+    "= 1 CASA"
+   ],
+   "subs": [
+    "Y si escribes",
+    "un *nombre*",
+    "en *comentarios*,",
+    "ese cachorro",
+    "tendrá su *casa* aquí,",
+    "con su *nombre*."
+   ]
+  },
+  {
+   "id": "special",
+   "say": "Y los nombres con más likes tendrán una casa especial: con forma de hueso, un castillo, o una casa con piscina.",
+   "top": [
+    "LOS MÁS LIKEADOS",
+    "CASA ESPECIAL"
+   ],
+   "subs": [
+    "Y los nombres",
+    "con más *likes*",
+    "tendrán una casa *especial*:",
+    "con forma de *hueso*,",
+    "un *castillo*,",
+    "o una casa",
+    "con *piscina*."
+   ]
+  },
+  {
+   "id": "team",
+   "say": "Lola, la cartera, dice que Rocky es demasiado grande. Y doña Carmen le guarda cuarenta galletas.",
+   "top": [
+    "",
+    ""
+   ],
+   "subs": [
+    "*Lola*, la cartera,",
+    "dice que es ~demasiado grande~.",
+    "Y doña *Carmen*",
+    "le guarda",
+    "*40 galletas*."
+   ],
+   "chunkShot": [
+    1,
+    1,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "id": "secret",
+   "say": "A mil seguidores, desbloqueamos una sorpresa. Y a diez mil... ya verás.",
+   "top": [
+    "+1.000 SEGUIDORES",
+    "UNA SORPRESA"
+   ],
+   "subs": [
+    "A *mil* seguidores,",
+    "desbloqueamos",
+    "una *sorpresa*.",
+    "Y a *diez mil*...",
+    "ya verás."
+   ],
+   "chunkTop": [
+    null,
+    null,
+    null,
+    [
+     "+10.000 SEGUIDORES",
+     "???"
+    ],
+    [
+     "+10.000 SEGUIDORES",
+     "???"
+    ]
+   ],
+   "pause": 0.5
+  },
+  {
+   "id": "party",
+   "say": "Y a cien mil, Rocky tendrá el cumpleaños que nunca tuvo.",
+   "top": [
+    "+100.000",
+    "¡SU CUMPLEAÑOS!"
+   ],
+   "subs": [
+    "Y a *cien mil*,",
+    "Rocky tendrá",
+    "el *cumpleaños*",
+    "que nunca tuvo."
+   ],
+   "pause": 0.8
+  },
+  {
+   "id": "vote",
+   "say": "Pero primero, ¿qué construimos? A: un gimnasio para perros. B: un food truck de salchichas. C: un estadio de frisbee.",
+   "top": [
+    "¿QUÉ CONSTRUIMOS",
+    "PRIMERO?"
+   ],
+   "subs": [
+    "Pero primero,",
+    "¿qué *construimos*?",
+    "A: un *gimnasio* para perros.",
+    "B: un *food truck*",
+    "de salchichas.",
+    "C: un *estadio de frisbee*."
+   ]
+  },
+  {
+   "id": "comment",
+   "say": "Comenta A, B o C. ¡El más votado gana! El resultado, en dos días.",
+   "top": [
+    "COMENTA",
+    "A, B O C"
+   ],
+   "subs": [
+    "Comenta *A, B o C*.",
+    "¡El más *votado* gana!",
+    "El *resultado*,",
+    "en dos días."
+   ]
+  },
+  {
+   "id": "remember",
+   "say": "Y no olvides el nombre de tu cachorro. Mañana, podría ser el vecino de Rocky.",
+   "top": [
+    "ESCRIBE EL NOMBRE",
+    "DE TU CACHORRO"
+   ],
+   "subs": [
+    "Y no olvides",
+    "el *nombre*",
+    "de tu *cachorro*.",
+    "Mañana,",
+    "podría ser el *vecino*",
+    "de *Rocky*."
+   ]
+  },
+  {
+   "id": "thanks",
+   "say": "Gracias a ti, Rocky por fin tiene una familia.",
+   "top": [
+    "GRACIAS A TI",
+    "¡POR FIN FAMILIA!"
+   ],
+   "subs": [
+    "Gracias a *ti*,",
+    "Rocky por fin",
+    "tiene una *familia*."
+   ],
+   "pause": 0.7
+  },
+  {
+   "id": "follow",
+   "say": "Síguenos para ver crecer el pueblo de Rocky.",
+   "top": [
+    "SÍGUENOS PARA VER",
+    "CRECER EL PUEBLO"
+   ],
+   "subs": [
+    "*Síguenos*",
+    "para ver crecer",
+    "el pueblo de *Rocky*."
+   ]
+  }
+ ],
+ "ui": {
+  "follow": "SEGUIR",
+  "following": "SIGUIENDO",
+  "rule": "1 SEGUIDOR = 1 AMIGO",
+  "name": "ROCKY",
+  "result": "RESULTADO EN 2 DÍAS",
+  "sign": [
+   "VILLA",
+   "PATITAS"
+  ],
+  "team": [
+   [
+    "1",
+    "ABUELO PACO",
+    "90 años"
+   ],
+   [
+    "2",
+    "LOLA",
+    "Cartera · ¡qué grande!"
+   ],
+   [
+    "3",
+    "DOÑA CARMEN",
+    "40 galletas guardadas"
+   ]
+  ],
+  "yourHouse": "TU CASA",
+  "zzz": "Zzz"
+ },
+ "labels": [
+  [
+   "Simba",
+   "@sofi_23"
+  ],
+  [
+   "Lola",
+   "@mateo.rx"
+  ],
+  [
+   "Duque",
+   "@vale_mx"
+  ],
+  [
+   "Pelusa",
+   "@diego_ff"
+  ],
+  [
+   "Zeus",
+   "@cami.v"
+  ]
+ ],
+ "special": [
+  [
+   "Thor",
+   "@ana_g"
+  ],
+  [
+   "Reina",
+   "@lu.mx"
+  ],
+  [
+   "Chispa",
+   "@javi_10"
+  ]
+ ],
+ "tail": 1.6,
+ "theme": {
+  "ground": "#a5c96a",
+  "plot": "#e2c48f",
+  "sky": "#f7c98b",
+  "fog": "#f3d9b5",
+  "trees": "autumn",
+  "weather": "leaves"
+ },
+ "hero": {
+  "c1": "#6b4226",
+  "c2": "#f0e6da",
+  "wide": 1.35,
+  "ear": 0.8,
+  "earC": "#4a2c18",
+  "scale": 1.75
+ },
+ "prop": "frisbee",
+ "specialTypes": [
+  "bone",
+  "castle",
+  "pool"
+ ],
+ "voteTypes": [
+  "gym",
+  "hotdog",
+  "stadium"
+ ]
+}
